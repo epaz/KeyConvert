@@ -1,0 +1,10 @@
+Key Converter log(Tuesday, July 22, 2014 17:14:26)17:14:26.084: INFO: Beginning conversion on all files in directory: 
+17:14:26.089 INFO: Found 3 files to convert.
+17:14:26.093 INFO: Reading file C:\KeyConvert\4969390_Lick Your Brains_Original Mix.mp3
+17:14:26.169 WARN: No camelot key found for orginal key "12A" for file C:\KeyConvert\4969390_Lick Your Brains_Original Mix.mp3. Skipping file.
+17:14:26.194 INFO: Reading file C:\KeyConvert\4969391_Brought To Bare_Deetron Remix.mp3
+17:14:26.194 WARN: No camelot key found for orginal key "Unknown" for file C:\KeyConvert\4969391_Brought To Bare_Deetron Remix.mp3. Skipping file.
+17:14:26.199 INFO: Reading file C:\KeyConvert\5560314_Cowboys  Angels_Original Mix.mp3
+17:14:26.199 WARN: No camelot key found for orginal key "7A" for file C:\KeyConvert\5560314_Cowboys  Angels_Original Mix.mp3. Skipping file.
+17:14:26.2 INFO: Successfully converted 0 of 3 files.
+17:14:26.2 INFO: Done converting files. Exiting...

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RuleSet Name="Migrated rules for ID3Sharp.ruleset" Description="This rule set was created from the CodeAnalysisRules property for the &quot;Debug (Any CPU)&quot; configuration in project &quot;C:\Users\UEDP\Downloads\ID3Sharp-0.2-Dev-2006-02-25\ID3Sharp\ID3Sharp.csproj&quot;." ToolsVersion="12.0">
+  <IncludeAll Action="Warning" />
+  <Rules AnalyzerId="Microsoft.Analyzers.ManagedCodeAnalysis" RuleNamespace="Microsoft.Rules.Managed">
+    <Rule Id="CA1300" Action="None" />
+    <Rule Id="CA1301" Action="None" />
+    <Rule Id="CA1302" Action="None" />
+    <Rule Id="CA1303" Action="None" />
+    <Rule Id="CA1304" Action="None" />
+    <Rule Id="CA1305" Action="None" />
+    <Rule Id="CA1306" Action="None" />
+    <Rule Id="CA1400" Action="None" />
+    <Rule Id="CA1401" Action="None" />
+    <Rule Id="CA1402" Action="None" />
+    <Rule Id="CA1403" Action="None" />
+    <Rule Id="CA1404" Action="None" />
+    <Rule Id="CA1405" Action="None" />
+    <Rule Id="CA1406" Action="None" />
+    <Rule Id="CA1407" Action="None" />
+    <Rule Id="CA1408" Action="None" />
+    <Rule Id="CA1409" Action="None" />
+    <Rule Id="CA1410" Action="None" />
+    <Rule Id="CA1411" Action="None" />
+    <Rule Id="CA1412" Action="None" />
+    <Rule Id="CA1413" Action="None" />
+    <Rule Id="CA1414" Action="None" />
+    <Rule Id="CA1415" Action="None" />
+  </Rules>
+</RuleSet>

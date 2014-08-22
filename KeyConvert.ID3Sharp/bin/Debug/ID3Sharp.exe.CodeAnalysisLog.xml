@@ -1,0 +1,1434 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="c:\program files (x86)\microsoft visual studio 12.0\team tools\static analysis tools\fxcop\Xml\CodeAnalysisReport.xsl"?>
+<FxCopReport Version="12.0">
+ <Namespaces>
+  <Namespace Name="ID3Sharp">
+   <Messages>
+    <Message Id="ID" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="Breaking">
+     <Issue Name="NamespaceAbbreviation" Certainty="85" Level="Error">Correct the casing of 'ID' in namespace name 'ID3Sharp' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+    </Message>
+   </Messages>
+  </Namespace>
+  <Namespace Name="ID3Sharp.Exceptions">
+   <Messages>
+    <Message Id="ID" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="Breaking">
+     <Issue Name="NamespaceAbbreviation" Certainty="85" Level="Error">Correct the casing of 'ID' in namespace name 'ID3Sharp.Exceptions' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+    </Message>
+   </Messages>
+  </Namespace>
+  <Namespace Name="ID3Sharp.Frames">
+   <Messages>
+    <Message Id="ID" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="Breaking">
+     <Issue Name="NamespaceAbbreviation" Certainty="85" Level="Error">Correct the casing of 'ID' in namespace name 'ID3Sharp.Frames' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+    </Message>
+   </Messages>
+  </Namespace>
+  <Namespace Name="ID3Sharp.IO">
+   <Messages>
+    <Message Id="ID" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="Breaking">
+     <Issue Name="NamespaceAbbreviation" Certainty="85" Level="Error">Correct the casing of 'ID' in namespace name 'ID3Sharp.IO' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+    </Message>
+   </Messages>
+  </Namespace>
+  <Namespace Name="ID3Sharp.Models">
+   <Messages>
+    <Message Id="ID" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="Breaking">
+     <Issue Name="NamespaceAbbreviation" Certainty="85" Level="Error">Correct the casing of 'ID' in namespace name 'ID3Sharp.Models' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+    </Message>
+   </Messages>
+  </Namespace>
+ </Namespaces>
+ <Targets>
+  <Target Name="C:\Users\UEDP\Downloads\ID3Sharp-0.2-Dev-2006-02-25\ID3Sharp\bin\Debug\ID3Sharp.exe">
+   <Modules>
+    <Module Name="id3sharp.exe">
+     <Messages>
+      <Message TypeName="AssembliesShouldHaveValidStrongNames" Category="Microsoft.Design" CheckId="CA2210" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="NonBreaking">
+       <Issue Name="NoStrongName" Certainty="95" Level="CriticalError">Sign 'ID3Sharp.exe' with a strong name key.</Issue>
+      </Message>
+      <Message Id="ID" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="Breaking">
+       <Issue Name="AssemblyAbbreviation" Certainty="85" Level="Error">Correct the casing of 'ID' in assembly name 'ID3Sharp.exe' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+      </Message>
+     </Messages>
+     <Namespaces>
+      <Namespace Name="Demo">
+       <Types>
+        <Type Name="Demo" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#DemoAdvancedUsage()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Hmmmm" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="c:\Users\UEDP\Downloads\ID3Sharp-0.2-Dev-2006-02-25\ID3Sharp" File="Demo.cs" Line="249">Correct the spelling of the unrecognized token 'Hmmmm' in the literal '"Hmmmm....something didn\'t go right here."'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#DemoBasicUsageForID3v1()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="ID" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="Breaking">
+             <Issue Name="MemberAbbreviation" Certainty="85" Level="Error" Path="c:\Users\UEDP\Downloads\ID3Sharp-0.2-Dev-2006-02-25\ID3Sharp" File="Demo.cs" Line="72">Correct the casing of 'ID' in member name 'Demo.DemoBasicUsageForID3v1()' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+            </Message>
+            <Message Id="v" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="c:\Users\UEDP\Downloads\ID3Sharp-0.2-Dev-2006-02-25\ID3Sharp" File="Demo.cs" Line="72">Correct the casing of 'v' in member name 'Demo.DemoBasicUsageForID3v1()' by changing it to 'V'.</Issue>
+            </Message>
+            <Message Id="Hmmmm" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="c:\Users\UEDP\Downloads\ID3Sharp-0.2-Dev-2006-02-25\ID3Sharp" File="Demo.cs" Line="90">Correct the spelling of the unrecognized token 'Hmmmm' in the literal '"Hmmmm....something didn\'t go right here."'.</Issue>
+             <Issue Certainty="75" Level="Warning" Path="c:\Users\UEDP\Downloads\ID3Sharp-0.2-Dev-2006-02-25\ID3Sharp" File="Demo.cs" Line="111">Correct the spelling of the unrecognized token 'Hmmmm' in the literal '"Hmmmm....something didn\'t go right here."'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#DemoBasicUsageForID3v2()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="ID" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="Breaking">
+             <Issue Name="MemberAbbreviation" Certainty="85" Level="Error" Path="c:\Users\UEDP\Downloads\ID3Sharp-0.2-Dev-2006-02-25\ID3Sharp" File="Demo.cs" Line="122">Correct the casing of 'ID' in member name 'Demo.DemoBasicUsageForID3v2()' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+            </Message>
+            <Message Id="v" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="c:\Users\UEDP\Downloads\ID3Sharp-0.2-Dev-2006-02-25\ID3Sharp" File="Demo.cs" Line="122">Correct the casing of 'v' in member name 'Demo.DemoBasicUsageForID3v2()' by changing it to 'V'.</Issue>
+            </Message>
+            <Message Id="Hmmmm" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="c:\Users\UEDP\Downloads\ID3Sharp-0.2-Dev-2006-02-25\ID3Sharp" File="Demo.cs" Line="139">Correct the spelling of the unrecognized token 'Hmmmm' in the literal '"Hmmmm....something didn\'t go right here."'.</Issue>
+             <Issue Certainty="75" Level="Warning" Path="c:\Users\UEDP\Downloads\ID3Sharp-0.2-Dev-2006-02-25\ID3Sharp" File="Demo.cs" Line="160">Correct the spelling of the unrecognized token 'Hmmmm' in the literal '"Hmmmm....something didn\'t go right here."'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#MyDemo()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="UniqueFileIdentifier" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="c:\Users\UEDP\Downloads\ID3Sharp-0.2-Dev-2006-02-25\ID3Sharp" File="Demo.cs" Line="190">Correct the spelling of the unrecognized token 'UniqueFileIdentifier' in the literal '"UniqueFileIdentifier: {0}"'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#OldMain()" Kind="Method" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="demo" TypeName="RemoveUnusedLocals" Category="Microsoft.Performance" CheckId="CA1804" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Warning" Path="c:\Users\UEDP\Downloads\ID3Sharp-0.2-Dev-2006-02-25\ID3Sharp" File="Demo.cs" Line="50">'Demo.OldMain()' declares a variable, 'demo', of type 'Demo', which is never used or is only assigned to. Use this variable or remove it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="ID3Sharp">
+       <Types>
+        <Type Name="KeyConverter" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#.ctor(System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DefaultParametersShouldNotBeUsed" Category="Microsoft.Design" CheckId="CA1026" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="Breaking">
+             <Issue Certainty="75" Level="Error" Path="c:\Users\UEDP\Downloads\ID3Sharp-0.2-Dev-2006-02-25\ID3Sharp" File="KeyConverter.cs" Line="19">Replace method 'KeyConverter.KeyConverter(string)' with an overload that supplies all default arguments.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#BeatportKeysDictionary" Kind="Field" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotDeclareReadOnlyMutableReferenceTypes" Category="Microsoft.Security" CheckId="CA2104" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="NonBreaking">
+             <Issue Certainty="25" Level="Error">Remove the read-only designation from 'KeyConverter.BeatportKeysDictionary' or change the field to one that is an immutable reference type. If the reference type 'Dictionary&lt;string, string&gt;' is, in fact, immutable, exclude this message.</Issue>
+            </Message>
+            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Error">Because field 'KeyConverter.BeatportKeysDictionary' is visible outside of its declaring type, change its accessibility to private and add a property, with the same accessibility as the field has currently, to provide access to it.</Issue>
+            </Message>
+            <Message Id="Beatport" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Beatport' in member name 'KeyConverter.BeatportKeysDictionary' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Convert(System.Text.StringBuilder)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="TestForEmptyStringsUsingStringLength" Category="Microsoft.Performance" CheckId="CA1820" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="NonBreaking">
+             <Issue Name="IsNullOrEmpty" Certainty="95" Level="Warning" Path="c:\Users\UEDP\Downloads\ID3Sharp-0.2-Dev-2006-02-25\ID3Sharp" File="KeyConverter.cs" Line="204">Replace the call to 'string.operator ==(string, string)' in 'KeyConverter.Convert(StringBuilder)' with a call to 'String.IsNullOrEmpty'.</Issue>
+            </Message>
+            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="c:\Users\UEDP\Downloads\ID3Sharp-0.2-Dev-2006-02-25\ID3Sharp" File="KeyConverter.cs" Line="144">In externally visible method 'KeyConverter.Convert(StringBuilder)', validate parameter 'logger' before using it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#DisplayMenu()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning" Path="c:\Users\UEDP\Downloads\ID3Sharp-0.2-Dev-2006-02-25\ID3Sharp" File="KeyConverter.cs" Line="64">'KeyConverter.DisplayMenu()' appears to have no upstream public or protected callers.</Issue>
+            </Message>
+            <Message Id="KeyConverter" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="c:\Users\UEDP\Downloads\ID3Sharp-0.2-Dev-2006-02-25\ID3Sharp" File="KeyConverter.cs" Line="65">Correct the spelling of the unrecognized token 'KeyConverter' in the literal '"KeyConverter v1.0"'.</Issue>
+            </Message>
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Warning" Path="c:\Users\UEDP\Downloads\ID3Sharp-0.2-Dev-2006-02-25\ID3Sharp" File="KeyConverter.cs" Line="64">The 'this' parameter (or 'Me' in Visual Basic) of 'KeyConverter.DisplayMenu()' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Run(System.Collections.Generic.IList`1&lt;System.String&gt;)" Kind="Method" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="DoNotCatchGeneralExceptionTypes" Category="Microsoft.Design" CheckId="CA1031" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="CriticalError" Path="c:\Users\UEDP\Downloads\ID3Sharp-0.2-Dev-2006-02-25\ID3Sharp" File="KeyConverter.cs" Line="96">Modify 'KeyConverter.Run(IList&lt;string&gt;)' to catch a more specific exception than 'Exception' or rethrow the exception.</Issue>
+            </Message>
+            <Message Id="Stacktrace" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="c:\Users\UEDP\Downloads\ID3Sharp-0.2-Dev-2006-02-25\ID3Sharp" File="KeyConverter.cs" Line="105">Correct the spelling of the unrecognized token 'Stacktrace' in the literal '"Error running conversion. Exception message: {0}, Stacktrace: {1}"'.</Issue>
+            </Message>
+            <Message Id="unauthException" TypeName="RemoveUnusedLocals" Category="Microsoft.Performance" CheckId="CA1804" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Warning" Path="c:\Users\UEDP\Downloads\ID3Sharp-0.2-Dev-2006-02-25\ID3Sharp" File="KeyConverter.cs" Line="119">'KeyConverter.Run(IList&lt;string&gt;)' declares a variable, 'unauthException', of type 'UnauthorizedAccessException', which is never used or is only assigned to. Use this variable or remove it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="ID3Sharp.Frames">
+       <Types>
+        <Type Name="COMMFrame" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#.ctor(ID3Sharp.Frames.COMMFrame)" Kind="Method" Static="False" Accessibility="FamilyOrAssembly" ExternallyVisible="True">
+           <Messages>
+            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="c:\Users\UEDP\Downloads\ID3Sharp-0.2-Dev-2006-02-25\ID3Sharp\Frames" File="COMMFrame.cs" Line="115">In externally visible method 'COMMFrame.COMMFrame(COMMFrame)', validate parameter 'frame' before using it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ParseFrameData(System.Byte[],ID3Sharp.Models.ID3Versions)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning">In externally visible method 'COMMFrame.ParseFrameData(byte[], ID3Versions)', validate parameter 'frameData' before using it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Validate(ID3Sharp.Models.ID3Versions)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="TextEncodingType" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="c:\Users\UEDP\Downloads\ID3Sharp-0.2-Dev-2006-02-25\ID3Sharp\Frames" File="COMMFrame.cs" Line="274">Correct the spelling of the unrecognized token 'TextEncodingType' in the literal '"Description and Text not set with same TextEncodingType."'.</Issue>
+             <Issue Certainty="75" Level="Warning" Path="c:\Users\UEDP\Downloads\ID3Sharp-0.2-Dev-2006-02-25\ID3Sharp\Frames" File="COMMFrame.cs" Line="268">Correct the spelling of the unrecognized token 'TextEncodingType' in the literal '"URL not set with required TextEncodingType."'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="FrameComposite" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#.ctor(ID3Sharp.Frames.FrameComposite)" Kind="Method" Static="False" Accessibility="FamilyOrAssembly" ExternallyVisible="True">
+           <Messages>
+            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="c:\Users\UEDP\Downloads\ID3Sharp-0.2-Dev-2006-02-25\ID3Sharp\Frames" File="FrameComposite.cs" Line="82">In externally visible method 'FrameComposite.FrameComposite(FrameComposite)', validate parameter 'frame' before using it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#AddFrame(ID3Sharp.Models.ID3v2Frame)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="FrameType" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="c:\Users\UEDP\Downloads\ID3Sharp-0.2-Dev-2006-02-25\ID3Sharp\Frames" File="FrameComposite.cs" Line="176">Correct the spelling of the unrecognized token 'FrameType' in the literal '"FrameType of frame to be added does not match FrameType of composite"'.</Issue>
+             <Issue Certainty="75" Level="Warning" Path="c:\Users\UEDP\Downloads\ID3Sharp-0.2-Dev-2006-02-25\ID3Sharp\Frames" File="FrameComposite.cs" Line="176">Correct the spelling of the unrecognized token 'FrameType' in the literal '"FrameType of frame to be added does not match FrameType of composite"'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Initialize(System.Byte[],System.Byte[],ID3Sharp.Models.ID3Versions)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="FrameComposite" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="c:\Users\UEDP\Downloads\ID3Sharp-0.2-Dev-2006-02-25\ID3Sharp\Frames" File="FrameComposite.cs" Line="216">Correct the spelling of the unrecognized token 'FrameComposite' in the literal '"Objects of type FrameComposite cannot be initialized."'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ParseFrameData(System.Byte[],ID3Sharp.Models.ID3Versions)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="FrameComposite" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="c:\Users\UEDP\Downloads\ID3Sharp-0.2-Dev-2006-02-25\ID3Sharp\Frames" File="FrameComposite.cs" Line="96">Correct the spelling of the unrecognized token 'FrameComposite' in the literal '"ParseFrameData cannot be called on objects of type FrameComposite."'.</Issue>
+            </Message>
+            <Message Id="ParseFrameData" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="c:\Users\UEDP\Downloads\ID3Sharp-0.2-Dev-2006-02-25\ID3Sharp\Frames" File="FrameComposite.cs" Line="96">Correct the spelling of the unrecognized token 'ParseFrameData' in the literal '"ParseFrameData cannot be called on objects of type FrameComposite."'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="FrameType" Kind="Enum" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#EncryptionMethodRegistraion" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Registraion" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Registraion' in member name 'FrameType.EncryptionMethodRegistraion' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#OriginalFilename" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Filename" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="Breaking">
+             <Issue Name="MemberShouldBeCompoundWord" Certainty="80" Level="Error">The discrete term 'Filename' in member name 'FrameType.OriginalFilename' should be expressed as a compound word, 'FileName'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Popularimeter" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Popularimeter" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Popularimeter' in member name 'FrameType.Popularimeter' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="GEOBFrame" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#.ctor(ID3Sharp.Frames.GEOBFrame)" Kind="Method" Static="False" Accessibility="FamilyOrAssembly" ExternallyVisible="True">
+           <Messages>
+            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="c:\Users\UEDP\Downloads\ID3Sharp-0.2-Dev-2006-02-25\ID3Sharp\Frames" File="GEOBFrame.cs" Line="106">In externally visible method 'GEOBFrame.GEOBFrame(GEOBFrame)', validate parameter 'frame' before using it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#EncapsulatedObject" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="PropertiesShouldNotReturnArrays" Category="Microsoft.Performance" CheckId="CA1819" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="Breaking">
+             <Issue Certainty="50" Level="Warning" Path="c:\Users\UEDP\Downloads\ID3Sharp-0.2-Dev-2006-02-25\ID3Sharp\Frames" File="GEOBFrame.cs" Line="253">Change 'GEOBFrame.EncapsulatedObject' to return a collection or make it a method.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Filename" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Filename" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="Breaking">
+             <Issue Name="MemberShouldBeCompoundWord" Certainty="80" Level="Error" Path="c:\Users\UEDP\Downloads\ID3Sharp-0.2-Dev-2006-02-25\ID3Sharp\Frames" File="GEOBFrame.cs" Line="206">The discrete term 'Filename' in member name 'GEOBFrame.Filename' should be expressed as a compound word, 'FileName'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ParseFrameData(System.Byte[],ID3Sharp.Models.ID3Versions)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning">In externally visible method 'GEOBFrame.ParseFrameData(byte[], ID3Versions)', validate parameter 'frameData' before using it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Validate(ID3Sharp.Models.ID3Versions)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="TextEncodingType" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="c:\Users\UEDP\Downloads\ID3Sharp-0.2-Dev-2006-02-25\ID3Sharp\Frames" File="GEOBFrame.cs" Line="313">Correct the spelling of the unrecognized token 'TextEncodingType' in the literal '"Description and Text not set with same TextEncodingType."'.</Issue>
+             <Issue Certainty="75" Level="Warning" Path="c:\Users\UEDP\Downloads\ID3Sharp-0.2-Dev-2006-02-25\ID3Sharp\Frames" File="GEOBFrame.cs" Line="307">Correct the spelling of the unrecognized token 'TextEncodingType' in the literal '"MIME type not set with required TextEncodingType."'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="PCNTFrame" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#.ctor(ID3Sharp.Frames.PCNTFrame)" Kind="Method" Static="False" Accessibility="FamilyOrAssembly" ExternallyVisible="True">
+           <Messages>
+            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="c:\Users\UEDP\Downloads\ID3Sharp-0.2-Dev-2006-02-25\ID3Sharp\Frames" File="PCNTFrame.cs" Line="74">In externally visible method 'PCNTFrame.PCNTFrame(PCNTFrame)', validate parameter 'frame' before using it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="PRIVFrame" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#.ctor(ID3Sharp.Frames.PRIVFrame)" Kind="Method" Static="False" Accessibility="FamilyOrAssembly" ExternallyVisible="True">
+           <Messages>
+            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="c:\Users\UEDP\Downloads\ID3Sharp-0.2-Dev-2006-02-25\ID3Sharp\Frames" File="PRIVFrame.cs" Line="99">In externally visible method 'PRIVFrame.PRIVFrame(PRIVFrame)', validate parameter 'frame' before using it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#PrivateData" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="PropertiesShouldNotReturnArrays" Category="Microsoft.Performance" CheckId="CA1819" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="Breaking">
+             <Issue Certainty="50" Level="Warning" Path="c:\Users\UEDP\Downloads\ID3Sharp-0.2-Dev-2006-02-25\ID3Sharp\Frames" File="PRIVFrame.cs" Line="180">Change 'PRIVFrame.PrivateData' to return a collection or make it a method.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="TCONFrame" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Int" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="int" TypeName="IdentifiersShouldNotContainTypeNames" Category="Microsoft.Naming" CheckId="CA1720" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="Breaking">
+             <Issue Name="LanguageSpecificMember" Certainty="75" Level="Error" Path="c:\Users\UEDP\Downloads\ID3Sharp-0.2-Dev-2006-02-25\ID3Sharp\Frames" File="TCONFrame.cs" Line="122">Consider replacing the language-specific data type identifier 'Int' in member name 'TCONFrame.Int' with either a language-independent equivalent or a more generic term, such as 'value'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ParseFrameData(System.Byte[],ID3Sharp.Models.ID3Versions)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="System.String.StartsWith(System.String)" TypeName="SpecifyStringComparison" Category="Microsoft.Globalization" CheckId="CA1307" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="c:\Users\UEDP\Downloads\ID3Sharp-0.2-Dev-2006-02-25\ID3Sharp\Frames" File="TCONFrame.cs" Line="176">Because the behavior of 'string.StartsWith(string)' could vary based on the current user's locale settings, replace this call in 'TCONFrame.ParseFrameData(byte[], ID3Versions)' with a call to 'string.StartsWith(string, StringComparison)'. If the result of 'string.StartsWith(string, StringComparison)' will be displayed to the user, such as when sorting a list of items for display in a list box, specify 'StringComparison.CurrentCulture' or 'StringComparison.CurrentCultureIgnoreCase' as the 'StringComparison' parameter. If comparing case-insensitive identifiers, such as file paths, environment variables, or registry keys and values, specify 'StringComparison.OrdinalIgnoreCase'. Otherwise, if comparing case-sensitive identifiers, specify 'StringComparison.Ordinal'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#WriteToStream(System.IO.Stream,ID3Sharp.Models.ID3Versions)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="System.String.StartsWith(System.String)" TypeName="SpecifyStringComparison" Category="Microsoft.Globalization" CheckId="CA1307" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="c:\Users\UEDP\Downloads\ID3Sharp-0.2-Dev-2006-02-25\ID3Sharp\Frames" File="TCONFrame.cs" Line="191">Because the behavior of 'string.StartsWith(string)' could vary based on the current user's locale settings, replace this call in 'TCONFrame.WriteToStream(Stream, ID3Versions)' with a call to 'string.StartsWith(string, StringComparison)'. If the result of 'string.StartsWith(string, StringComparison)' will be displayed to the user, such as when sorting a list of items for display in a list box, specify 'StringComparison.CurrentCulture' or 'StringComparison.CurrentCultureIgnoreCase' as the 'StringComparison' parameter. If comparing case-insensitive identifiers, such as file paths, environment variables, or registry keys and values, specify 'StringComparison.OrdinalIgnoreCase'. Otherwise, if comparing case-sensitive identifiers, specify 'StringComparison.Ordinal'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="TextInformationFrame" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#.ctor(ID3Sharp.Frames.TextInformationFrame)" Kind="Method" Static="False" Accessibility="FamilyOrAssembly" ExternallyVisible="True">
+           <Messages>
+            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="c:\Users\UEDP\Downloads\ID3Sharp-0.2-Dev-2006-02-25\ID3Sharp\Frames" File="TextInformationFrame.cs" Line="94">In externally visible method 'TextInformationFrame.TextInformationFrame(TextInformationFrame)', validate parameter 'frame' before using it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="TXXXFrame" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#.ctor(ID3Sharp.Frames.TXXXFrame)" Kind="Method" Static="False" Accessibility="FamilyOrAssembly" ExternallyVisible="True">
+           <Messages>
+            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="c:\Users\UEDP\Downloads\ID3Sharp-0.2-Dev-2006-02-25\ID3Sharp\Frames" File="TXXXFrame.cs" Line="91">In externally visible method 'TXXXFrame.TXXXFrame(TXXXFrame)', validate parameter 'frame' before using it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Validate(ID3Sharp.Models.ID3Versions)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="TextEncodingType" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="c:\Users\UEDP\Downloads\ID3Sharp-0.2-Dev-2006-02-25\ID3Sharp\Frames" File="TXXXFrame.cs" Line="192">Correct the spelling of the unrecognized token 'TextEncodingType' in the literal '"URL not set with required TextEncodingType."'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="UFIDFrame" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#.ctor(ID3Sharp.Frames.UFIDFrame)" Kind="Method" Static="False" Accessibility="FamilyOrAssembly" ExternallyVisible="True">
+           <Messages>
+            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="c:\Users\UEDP\Downloads\ID3Sharp-0.2-Dev-2006-02-25\ID3Sharp\Frames" File="UFIDFrame.cs" Line="99">In externally visible method 'UFIDFrame.UFIDFrame(UFIDFrame)', validate parameter 'frame' before using it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Identifier" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="PropertiesShouldNotReturnArrays" Category="Microsoft.Performance" CheckId="CA1819" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="Breaking">
+             <Issue Certainty="50" Level="Warning" Path="c:\Users\UEDP\Downloads\ID3Sharp-0.2-Dev-2006-02-25\ID3Sharp\Frames" File="UFIDFrame.cs" Line="187">Change 'UFIDFrame.Identifier' to return a collection or make it a method.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="UnimplementedFrame" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#.ctor(ID3Sharp.Frames.UnimplementedFrame)" Kind="Method" Static="False" Accessibility="FamilyOrAssembly" ExternallyVisible="True">
+           <Messages>
+            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="c:\Users\UEDP\Downloads\ID3Sharp-0.2-Dev-2006-02-25\ID3Sharp\Frames" File="UnimplementedFrame.cs" Line="72">In externally visible method 'UnimplementedFrame.UnimplementedFrame(UnimplementedFrame)', validate parameter 'frame' before using it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Bytes" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="PropertiesShouldNotReturnArrays" Category="Microsoft.Performance" CheckId="CA1819" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="Breaking">
+             <Issue Certainty="50" Level="Warning" Path="c:\Users\UEDP\Downloads\ID3Sharp-0.2-Dev-2006-02-25\ID3Sharp\Frames" File="UnimplementedFrame.cs" Line="107">Change 'UnimplementedFrame.Bytes' to return a collection or make it a method.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="URLLinkFrame" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#.ctor(ID3Sharp.Frames.URLLinkFrame)" Kind="Method" Static="False" Accessibility="FamilyOrAssembly" ExternallyVisible="True">
+           <Messages>
+            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="c:\Users\UEDP\Downloads\ID3Sharp-0.2-Dev-2006-02-25\ID3Sharp\Frames" File="URLLinkFrame.cs" Line="100">In externally visible method 'URLLinkFrame.URLLinkFrame(URLLinkFrame)', validate parameter 'frame' before using it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ParseFrameData(System.Byte[],ID3Sharp.Models.ID3Versions)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="c:\Users\UEDP\Downloads\ID3Sharp-0.2-Dev-2006-02-25\ID3Sharp\Frames" File="URLLinkFrame.cs" Line="112">In externally visible method 'URLLinkFrame.ParseFrameData(byte[], ID3Versions)', validate parameter 'frameData' before using it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Url" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="UriPropertiesShouldNotBeStrings" Category="Microsoft.Design" CheckId="CA1056" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="Breaking">
+             <Issue Certainty="75" Level="Error" Path="c:\Users\UEDP\Downloads\ID3Sharp-0.2-Dev-2006-02-25\ID3Sharp\Frames" File="URLLinkFrame.cs" Line="147">Change the type of property 'URLLinkFrame.Url' from string to System.Uri.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Validate(ID3Sharp.Models.ID3Versions)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="TextEncodingType" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="c:\Users\UEDP\Downloads\ID3Sharp-0.2-Dev-2006-02-25\ID3Sharp\Frames" File="URLLinkFrame.cs" Line="210">Correct the spelling of the unrecognized token 'TextEncodingType' in the literal '"URL not set with required TextEncodingType."'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="WXXXFrame" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#.ctor(ID3Sharp.Frames.WXXXFrame)" Kind="Method" Static="False" Accessibility="FamilyOrAssembly" ExternallyVisible="True">
+           <Messages>
+            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="c:\Users\UEDP\Downloads\ID3Sharp-0.2-Dev-2006-02-25\ID3Sharp\Frames" File="WXXXFrame.cs" Line="94">In externally visible method 'WXXXFrame.WXXXFrame(WXXXFrame)', validate parameter 'frame' before using it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ParseFrameData(System.Byte[],ID3Sharp.Models.ID3Versions)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="urlBytes" TypeName="RemoveUnusedLocals" Category="Microsoft.Performance" CheckId="CA1804" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Warning" Path="c:\Users\UEDP\Downloads\ID3Sharp-0.2-Dev-2006-02-25\ID3Sharp\Frames" File="WXXXFrame.cs" Line="113">'WXXXFrame.ParseFrameData(byte[], ID3Versions)' declares a variable, 'urlBytes', of type 'byte[]', which is never used or is only assigned to. Use this variable or remove it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="ID3Sharp.IO">
+       <Types>
+        <Type Name="EncodedInteger" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#ToInt(System.Byte[])" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning">In externally visible method 'EncodedInteger.ToInt(byte[])', validate parameter 'integerBytes' before using it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="EncodedString" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#.ctor(ID3Sharp.IO.TextEncodingType,System.Byte[])" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="bytes" TypeName="IdentifiersShouldNotContainTypeNames" Category="Microsoft.Naming" CheckId="CA1720" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="Breaking">
+             <Issue Name="LanguageIndependentMemberParameter" Certainty="75" Level="Error" Path="c:\Users\UEDP\Downloads\ID3Sharp-0.2-Dev-2006-02-25\ID3Sharp\IO" File="EncodedString.cs" Line="125">In member 'EncodedString.EncodedString(TextEncodingType, byte[])', consider replacing the data type identifier 'Bytes' in parameter name 'stringBytes' with a more generic term, such as 'value'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#.ctor(ID3Sharp.IO.TextEncodingType,System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="str" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="c:\Users\UEDP\Downloads\ID3Sharp-0.2-Dev-2006-02-25\ID3Sharp\IO" File="EncodedString.cs" Line="114">In method 'EncodedString.EncodedString(TextEncodingType, string)', correct the spelling of 'str' in parameter name 'str' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#.ctor(System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="str" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="c:\Users\UEDP\Downloads\ID3Sharp-0.2-Dev-2006-02-25\ID3Sharp\IO" File="EncodedString.cs" Line="104">In method 'EncodedString.EncodedString(string)', correct the spelling of 'str' in parameter name 'str' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#CommonalizeEncoding(ID3Sharp.IO.EncodedString[])" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Commonalize" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="75" Level="CriticalWarning" Path="c:\Users\UEDP\Downloads\ID3Sharp-0.2-Dev-2006-02-25\ID3Sharp\IO" File="EncodedString.cs" Line="336">Correct the spelling of 'Commonalize' in member name 'EncodedString.CommonalizeEncoding(params EncodedString[])' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="c:\Users\UEDP\Downloads\ID3Sharp-0.2-Dev-2006-02-25\ID3Sharp\IO" File="EncodedString.cs" Line="338">In externally visible method 'EncodedString.CommonalizeEncoding(params EncodedString[])', validate parameter 'strings' before using it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#CreateStrings(ID3Sharp.IO.TextEncodingType,System.Byte[])" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="enc" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="c:\Users\UEDP\Downloads\ID3Sharp-0.2-Dev-2006-02-25\ID3Sharp\IO" File="EncodedString.cs" Line="171">In method 'EncodedString.CreateStrings(TextEncodingType, byte[])', correct the spelling of 'enc' in parameter name 'encType' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message Id="1" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="c:\Users\UEDP\Downloads\ID3Sharp-0.2-Dev-2006-02-25\ID3Sharp\IO" File="EncodedString.cs" Line="172">In externally visible method 'EncodedString.CreateStrings(TextEncodingType, byte[])', validate parameter 'stringData' before using it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#CreateStrings(ID3Sharp.IO.TextEncodingType,System.Byte[],System.Int32,ID3Sharp.IO.EncodedString+CreateStringsLeftoverBytes)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="enc" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="c:\Users\UEDP\Downloads\ID3Sharp-0.2-Dev-2006-02-25\ID3Sharp\IO" File="EncodedString.cs" Line="225">In method 'EncodedString.CreateStrings(TextEncodingType, byte[], int, EncodedString.CreateStringsLeftoverBytes)', correct the spelling of 'enc' in parameter name 'encType' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message Id="1" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="c:\Users\UEDP\Downloads\ID3Sharp-0.2-Dev-2006-02-25\ID3Sharp\IO" File="EncodedString.cs" Line="252">In externally visible method 'EncodedString.CreateStrings(TextEncodingType, byte[], int, EncodedString.CreateStringsLeftoverBytes)', validate parameter 'stringData' before using it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#CreateStrings(System.Byte[])" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="c:\Users\UEDP\Downloads\ID3Sharp-0.2-Dev-2006-02-25\ID3Sharp\IO" File="EncodedString.cs" Line="159">In externally visible method 'EncodedString.CreateStrings(byte[])', validate parameter 'stringDataWithEncoding' before using it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#CreateStrings(System.Byte[],System.Int32,ID3Sharp.IO.EncodedString+CreateStringsLeftoverBytes)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning">In externally visible method 'EncodedString.CreateStrings(byte[], int, EncodedString.CreateStringsLeftoverBytes)', validate parameter 'stringDataWithEncoding' before using it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GetTermination(ID3Sharp.IO.TextEncodingType)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Warning" Path="c:\Users\UEDP\Downloads\ID3Sharp-0.2-Dev-2006-02-25\ID3Sharp\IO" File="EncodedString.cs" Line="700">The 'this' parameter (or 'Me' in Visual Basic) of 'EncodedString.GetTermination(TextEncodingType)' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GetTerminationLength(ID3Sharp.IO.TextEncodingType)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Warning" Path="c:\Users\UEDP\Downloads\ID3Sharp-0.2-Dev-2006-02-25\ID3Sharp\IO" File="EncodedString.cs" Line="716">The 'this' parameter (or 'Me' in Visual Basic) of 'EncodedString.GetTerminationLength(TextEncodingType)' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="EncodedString+CreateStringsLeftoverBytes" Kind="Delegate" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message Id="bytes" TypeName="IdentifiersShouldNotContainTypeNames" Category="Microsoft.Naming" CheckId="CA1720" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="Breaking">
+           <Issue Name="LanguageIndependentDelegateParameter" Certainty="75" Level="Error">In delegate 'EncodedString.CreateStringsLeftoverBytes', consider replacing the data type identifier 'Bytes' in parameter name 'leftoverBytes' with a more generic term, such as 'value'.</Issue>
+          </Message>
+          <Message TypeName="NestedTypesShouldNotBeVisible" Category="Microsoft.Design" CheckId="CA1034" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="Breaking">
+           <Issue Certainty="90" Level="Error">Do not nest type 'EncodedString.CreateStringsLeftoverBytes'. Alternatively, change its accessibility so that it is not externally visible.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="SynchsafeInteger" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message Id="Synchsafe" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="Breaking">
+           <Issue Name="Type" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Synchsafe' in type name 'SynchsafeInteger'.</Issue>
+          </Message>
+         </Messages>
+         <Members>
+          <Member Name="#Synchsafe(System.Int32)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Synchsafe" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="75" Level="CriticalWarning" Path="c:\Users\UEDP\Downloads\ID3Sharp-0.2-Dev-2006-02-25\ID3Sharp\IO" File="SynchsafeInteger.cs" Line="48">Correct the spelling of 'Synchsafe' in member name 'SynchsafeInteger.Synchsafe(int)' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#UnSynchsafe(System.Byte[])" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Synchsafe" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="75" Level="CriticalWarning" Path="c:\Users\UEDP\Downloads\ID3Sharp-0.2-Dev-2006-02-25\ID3Sharp\IO" File="SynchsafeInteger.cs" Line="68">Correct the spelling of 'Synchsafe' in member name 'SynchsafeInteger.UnSynchsafe(byte[])' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning">In externally visible method 'SynchsafeInteger.UnSynchsafe(byte[])', validate parameter 'integer' before using it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="TextEncodingType" Kind="Enum" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#ISO_8859_1" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="ISO" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error">Correct the casing of 'ISO' in member name 'TextEncodingType.ISO_8859_1' by changing it to 'Iso'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#UTF_16" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="UTF" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error">Correct the casing of 'UTF' in member name 'TextEncodingType.UTF_16' by changing it to 'Utf'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#UTF_16BE" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="UTF" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error">Correct the casing of 'UTF' in member name 'TextEncodingType.UTF_16BE' by changing it to 'Utf'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#UTF_8" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="UTF" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error">Correct the casing of 'UTF' in member name 'TextEncodingType.UTF_8' by changing it to 'Utf'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="ID3Sharp.Models">
+       <Types>
+        <Type Name="FrameHeaderFlagsV2_3" Kind="Enum" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="FlagsEnumsShouldHavePluralNames" Category="Microsoft.Naming" CheckId="CA1714" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="Breaking">
+           <Issue Certainty="75" Level="Error">If enumeration name 'FrameHeaderFlagsV2_3' is singular, change it to a plural form.</Issue>
+          </Message>
+          <Message Id="Flags" TypeName="UsePreferredTerms" Category="Microsoft.Naming" CheckId="CA1726" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="Breaking">
+           <Issue Name="TypeNoAlternate" Certainty="95" Level="Error">Replace the term 'Flags' in type name 'FrameHeaderFlagsV2_3' with an appropriate alternate or remove it entirely.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="FrameHeaderFlagsV2_4" Kind="Enum" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="FlagsEnumsShouldHavePluralNames" Category="Microsoft.Naming" CheckId="CA1714" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="Breaking">
+           <Issue Certainty="75" Level="Error">If enumeration name 'FrameHeaderFlagsV2_4' is singular, change it to a plural form.</Issue>
+          </Message>
+          <Message Id="Flags" TypeName="UsePreferredTerms" Category="Microsoft.Naming" CheckId="CA1726" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="Breaking">
+           <Issue Name="TypeNoAlternate" Certainty="95" Level="Error">Replace the term 'Flags' in type name 'FrameHeaderFlagsV2_4' with an appropriate alternate or remove it entirely.</Issue>
+          </Message>
+         </Messages>
+         <Members>
+          <Member Name="#Unsynchronization" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Unsynchronization" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Unsynchronization' in member name 'FrameHeaderFlagsV2_4.Unsynchronization' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="ID3Genre" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message Id="ID" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="Breaking">
+           <Issue Name="TypeAbbreviation" Certainty="85" Level="Error">Correct the casing of 'ID' in type name 'ID3Genre' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+          </Message>
+         </Messages>
+         <Members>
+          <Member Name="#GetGenre(System.String)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="System.String.Equals(System.String,System.StringComparison)" TypeName="UseOrdinalStringComparison" Category="Microsoft.Globalization" CheckId="CA1309" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="NonBreaking">
+             <Issue Name="StringComparison" Certainty="75" Level="Error" Path="c:\Users\UEDP\Downloads\ID3Sharp-0.2-Dev-2006-02-25\ID3Sharp\Models" File="ID3Genre.cs" Line="238">'ID3Genre.GetGenre(string)' passes 'StringComparison.InvariantCultureIgnoreCase' as the 'StringComparison' parameter to 'string.Equals(string, StringComparison)'. To perform a non-linguistic comparison, specify 'StringComparison.Ordinal' or 'StringComparison.OrdinalIgnoreCase' instead.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="ID3Tag" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message Id="ID" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="Breaking">
+           <Issue Name="TypeAbbreviation" Certainty="85" Level="Error">Correct the casing of 'ID' in type name 'ID3Tag' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+          </Message>
+         </Messages>
+         <Members>
+          <Member Name="#GenreAsInt" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="int" TypeName="IdentifiersShouldNotContainTypeNames" Category="Microsoft.Naming" CheckId="CA1720" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="Breaking">
+             <Issue Name="LanguageSpecificMember" Certainty="75" Level="Error" Path="c:\Users\UEDP\Downloads\ID3Sharp-0.2-Dev-2006-02-25\ID3Sharp\Models" File="ID3Tag.cs" Line="93">Consider replacing the language-specific data type identifier 'Int' in member name 'ID3Tag.GenreAsInt' with either a language-independent equivalent or a more generic term, such as 'value'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#StringToBytes(System.String)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="str" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="c:\Users\UEDP\Downloads\ID3Sharp-0.2-Dev-2006-02-25\ID3Sharp\Models" File="ID3Tag.cs" Line="292">In method 'ID3Tag.StringToBytes(string)', correct the spelling of 'str' in parameter name 'str' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Warning" Path="c:\Users\UEDP\Downloads\ID3Sharp-0.2-Dev-2006-02-25\ID3Sharp\Models" File="ID3Tag.cs" Line="292">The 'this' parameter (or 'Me' in Visual Basic) of 'ID3Tag.StringToBytes(string)' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#WriteTag(System.String,ID3Sharp.Models.ID3Versions)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="filename" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterShouldBeCompoundWord" Certainty="80" Level="Error" Path="c:\Users\UEDP\Downloads\ID3Sharp-0.2-Dev-2006-02-25\ID3Sharp\Models" File="ID3Tag.cs" Line="278">In member 'ID3Tag.WriteTag(string, ID3Versions)', the discrete term 'filename' in parameter name 'filename' should be expressed as a compound word, 'fileName'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="ID3v1Tag" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message Id="ID" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="Breaking">
+           <Issue Name="TypeAbbreviation" Certainty="85" Level="Error">Correct the casing of 'ID' in type name 'ID3v1Tag' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+          </Message>
+          <Message Id="v" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="Breaking">
+           <Issue Name="Type" Certainty="85" Level="Error">Correct the casing of 'v' in type name 'ID3v1Tag' by changing it to 'V'.</Issue>
+          </Message>
+         </Messages>
+         <Members>
+          <Member Name="#BytesToString(System.Byte[])" Kind="Method" Static="True" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="bytes" TypeName="IdentifiersShouldNotContainTypeNames" Category="Microsoft.Naming" CheckId="CA1720" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="Breaking">
+             <Issue Name="LanguageIndependentMemberParameter" Certainty="75" Level="Error" Path="c:\Users\UEDP\Downloads\ID3Sharp-0.2-Dev-2006-02-25\ID3Sharp\Models" File="ID3v1Tag.cs" Line="454">In member 'ID3v1Tag.BytesToString(byte[])', consider replacing the data type identifier 'bytes' in parameter name 'bytes' with a more generic term, such as 'value'.</Issue>
+            </Message>
+            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="c:\Users\UEDP\Downloads\ID3Sharp-0.2-Dev-2006-02-25\ID3Sharp\Models" File="ID3v1Tag.cs" Line="456">In externally visible method 'ID3v1Tag.BytesToString(byte[])', validate parameter 'bytes' before using it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#EnsureSpace(System.IO.Stream)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Warning" Path="c:\Users\UEDP\Downloads\ID3Sharp-0.2-Dev-2006-02-25\ID3Sharp\Models" File="ID3v1Tag.cs" Line="525">The 'this' parameter (or 'Me' in Visual Basic) of 'ID3v1Tag.EnsureSpace(Stream)' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#FormatString(System.String,System.Int32)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="str" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="c:\Users\UEDP\Downloads\ID3Sharp-0.2-Dev-2006-02-25\ID3Sharp\Models" File="ID3v1Tag.cs" Line="540">In method 'ID3v1Tag.FormatString(string, int)', correct the spelling of 'str' in parameter name 'str' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Warning" Path="c:\Users\UEDP\Downloads\ID3Sharp-0.2-Dev-2006-02-25\ID3Sharp\Models" File="ID3v1Tag.cs" Line="540">The 'this' parameter (or 'Me' in Visual Basic) of 'ID3v1Tag.FormatString(string, int)' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#HasTag(System.String)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="filename" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterShouldBeCompoundWord" Certainty="80" Level="Error" Path="c:\Users\UEDP\Downloads\ID3Sharp-0.2-Dev-2006-02-25\ID3Sharp\Models" File="ID3v1Tag.cs" Line="301">In member 'ID3v1Tag.HasTag(string)', the discrete term 'filename' in parameter name 'filename' should be expressed as a compound word, 'fileName'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ID3v1_1CommentsFieldLength" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="ID" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="Breaking">
+             <Issue Name="MemberAbbreviation" Certainty="85" Level="Error">Correct the casing of 'ID' in member name 'ID3v1Tag.ID3v1_1CommentsFieldLength' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+            </Message>
+            <Message Id="v" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error">Correct the casing of 'v' in member name 'ID3v1Tag.ID3v1_1CommentsFieldLength' by changing it to 'V'.</Issue>
+            </Message>
+            <Message TypeName="IdentifiersShouldNotContainUnderscores" Category="Microsoft.Naming" CheckId="CA1707" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="95" Level="Error">Remove the underscores from member name 'ID3v1Tag.ID3v1_1CommentsFieldLength'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ID3v1CommentsFieldLength" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="ID" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="Breaking">
+             <Issue Name="MemberAbbreviation" Certainty="85" Level="Error">Correct the casing of 'ID' in member name 'ID3v1Tag.ID3v1CommentsFieldLength' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+            </Message>
+            <Message Id="v" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error">Correct the casing of 'v' in member name 'ID3v1Tag.ID3v1CommentsFieldLength' by changing it to 'V'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ReadFromFile(System.Int64,System.Int32,System.IO.Stream)" Kind="Method" Static="True" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Loc" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="c:\Users\UEDP\Downloads\ID3Sharp-0.2-Dev-2006-02-25\ID3Sharp\Models" File="ID3v1Tag.cs" Line="416">In method 'ID3v1Tag.ReadFromFile(long, int, Stream)', correct the spelling of 'Loc' in parameter name 'startLoc' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ReadTag(System.String)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="filename" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterShouldBeCompoundWord" Certainty="80" Level="Error" Path="c:\Users\UEDP\Downloads\ID3Sharp-0.2-Dev-2006-02-25\ID3Sharp\Models" File="ID3v1Tag.cs" Line="343">In member 'ID3v1Tag.ReadTag(string)', the discrete term 'filename' in parameter name 'filename' should be expressed as a compound word, 'fileName'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#RemoveTag(System.String)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="filename" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterShouldBeCompoundWord" Certainty="80" Level="Error" Path="c:\Users\UEDP\Downloads\ID3Sharp-0.2-Dev-2006-02-25\ID3Sharp\Models" File="ID3v1Tag.cs" Line="567">In member 'ID3v1Tag.RemoveTag(string)', the discrete term 'filename' in parameter name 'filename' should be expressed as a compound word, 'fileName'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#TagLenth" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Lenth" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Lenth' in member name 'ID3v1Tag.TagLenth' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ValidateString(System.String,System.Int32)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="str" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="c:\Users\UEDP\Downloads\ID3Sharp-0.2-Dev-2006-02-25\ID3Sharp\Models" File="ID3v1Tag.cs" Line="277">In method 'ID3v1Tag.ValidateString(string, int)', correct the spelling of 'str' in parameter name 'str' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Warning" Path="c:\Users\UEDP\Downloads\ID3Sharp-0.2-Dev-2006-02-25\ID3Sharp\Models" File="ID3v1Tag.cs" Line="277">The 'this' parameter (or 'Me' in Visual Basic) of 'ID3v1Tag.ValidateString(string, int)' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#WriteTag(System.IO.Stream,ID3Sharp.Models.ID3Versions)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="c:\Users\UEDP\Downloads\ID3Sharp-0.2-Dev-2006-02-25\ID3Sharp\Models" File="ID3v1Tag.cs" Line="498">In externally visible method 'ID3v1Tag.WriteTag(Stream, ID3Versions)', validate parameter 'stream' before using it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="ID3v2Frame" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message Id="ID" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="Breaking">
+           <Issue Name="TypeAbbreviation" Certainty="85" Level="Error">Correct the casing of 'ID' in type name 'ID3v2Frame' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+          </Message>
+          <Message Id="v" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="Breaking">
+           <Issue Name="Type" Certainty="85" Level="Error">Correct the casing of 'v' in type name 'ID3v2Frame' by changing it to 'V'.</Issue>
+          </Message>
+         </Messages>
+         <Members>
+          <Member Name="#.ctor(ID3Sharp.Models.ID3v2Frame)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="c:\Users\UEDP\Downloads\ID3Sharp-0.2-Dev-2006-02-25\ID3Sharp\Models" File="ID3v2Frame.cs" Line="135">In externally visible method 'ID3v2Frame.ID3v2Frame(ID3v2Frame)', validate parameter 'frame' before using it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#HasFlag(ID3Sharp.Models.FrameHeaderFlagsV2_3,ID3Sharp.Models.FrameHeaderFlagsV2_3)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Warning" Path="c:\Users\UEDP\Downloads\ID3Sharp-0.2-Dev-2006-02-25\ID3Sharp\Models" File="ID3v2Frame.cs" Line="559">The 'this' parameter (or 'Me' in Visual Basic) of 'ID3v2Frame.HasFlag(FrameHeaderFlagsV2_3, FrameHeaderFlagsV2_3)' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#HasFlag(ID3Sharp.Models.FrameHeaderFlagsV2_4,ID3Sharp.Models.FrameHeaderFlagsV2_4)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Warning" Path="c:\Users\UEDP\Downloads\ID3Sharp-0.2-Dev-2006-02-25\ID3Sharp\Models" File="ID3v2Frame.cs" Line="548">The 'this' parameter (or 'Me' in Visual Basic) of 'ID3v2Frame.HasFlag(FrameHeaderFlagsV2_4, FrameHeaderFlagsV2_4)' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#HeaderFlags" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Flags" TypeName="UsePreferredTerms" Category="Microsoft.Naming" CheckId="CA1726" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="Breaking">
+             <Issue Name="MemberNoAlternate" Certainty="95" Level="Error" Path="c:\Users\UEDP\Downloads\ID3Sharp-0.2-Dev-2006-02-25\ID3Sharp\Models" File="ID3v2Frame.cs" Line="244">Replace the term 'Flags' in member name 'ID3v2Frame.HeaderFlags' with an appropriate alternate or remove it entirely.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ID3V2_2FrameFlagsField" Kind="Field" Static="True" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="ID" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="Breaking">
+             <Issue Name="MemberAbbreviation" Certainty="85" Level="Error">Correct the casing of 'ID' in member name 'ID3v2Frame.ID3V2_2FrameFlagsField' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+            </Message>
+            <Message Id="Flags" TypeName="UsePreferredTerms" Category="Microsoft.Naming" CheckId="CA1726" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="Breaking">
+             <Issue Name="MemberNoAlternate" Certainty="95" Level="Error">Replace the term 'Flags' in member name 'ID3v2Frame.ID3V2_2FrameFlagsField' with an appropriate alternate or remove it entirely.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ID3V2_2FrameHeaderLength" Kind="Field" Static="True" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="ID" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="Breaking">
+             <Issue Name="MemberAbbreviation" Certainty="85" Level="Error">Correct the casing of 'ID' in member name 'ID3v2Frame.ID3V2_2FrameHeaderLength' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ID3V2_2FrameIdFieldLength" Kind="Field" Static="True" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="ID" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="Breaking">
+             <Issue Name="MemberAbbreviation" Certainty="85" Level="Error">Correct the casing of 'ID' in member name 'ID3v2Frame.ID3V2_2FrameIdFieldLength' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ID3V2_2FrameSizeFieldLength" Kind="Field" Static="True" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="ID" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="Breaking">
+             <Issue Name="MemberAbbreviation" Certainty="85" Level="Error">Correct the casing of 'ID' in member name 'ID3v2Frame.ID3V2_2FrameSizeFieldLength' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ID3V2_3FrameFlagsField" Kind="Field" Static="True" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="ID" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="Breaking">
+             <Issue Name="MemberAbbreviation" Certainty="85" Level="Error">Correct the casing of 'ID' in member name 'ID3v2Frame.ID3V2_3FrameFlagsField' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+            </Message>
+            <Message Id="Flags" TypeName="UsePreferredTerms" Category="Microsoft.Naming" CheckId="CA1726" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="Breaking">
+             <Issue Name="MemberNoAlternate" Certainty="95" Level="Error">Replace the term 'Flags' in member name 'ID3v2Frame.ID3V2_3FrameFlagsField' with an appropriate alternate or remove it entirely.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ID3V2_3FrameHeaderLength" Kind="Field" Static="True" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="ID" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="Breaking">
+             <Issue Name="MemberAbbreviation" Certainty="85" Level="Error">Correct the casing of 'ID' in member name 'ID3v2Frame.ID3V2_3FrameHeaderLength' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ID3V2_3FrameIdFieldLength" Kind="Field" Static="True" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="ID" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="Breaking">
+             <Issue Name="MemberAbbreviation" Certainty="85" Level="Error">Correct the casing of 'ID' in member name 'ID3v2Frame.ID3V2_3FrameIdFieldLength' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ID3V2_3FrameSizeFieldLength" Kind="Field" Static="True" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="ID" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="Breaking">
+             <Issue Name="MemberAbbreviation" Certainty="85" Level="Error">Correct the casing of 'ID' in member name 'ID3v2Frame.ID3V2_3FrameSizeFieldLength' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ID3V2_4FrameFlagsField" Kind="Field" Static="True" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="ID" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="Breaking">
+             <Issue Name="MemberAbbreviation" Certainty="85" Level="Error">Correct the casing of 'ID' in member name 'ID3v2Frame.ID3V2_4FrameFlagsField' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+            </Message>
+            <Message Id="Flags" TypeName="UsePreferredTerms" Category="Microsoft.Naming" CheckId="CA1726" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="Breaking">
+             <Issue Name="MemberNoAlternate" Certainty="95" Level="Error">Replace the term 'Flags' in member name 'ID3v2Frame.ID3V2_4FrameFlagsField' with an appropriate alternate or remove it entirely.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ID3V2_4FrameHeaderLength" Kind="Field" Static="True" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="ID" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="Breaking">
+             <Issue Name="MemberAbbreviation" Certainty="85" Level="Error">Correct the casing of 'ID' in member name 'ID3v2Frame.ID3V2_4FrameHeaderLength' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ID3V2_4FrameIdFieldLength" Kind="Field" Static="True" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="ID" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="Breaking">
+             <Issue Name="MemberAbbreviation" Certainty="85" Level="Error">Correct the casing of 'ID' in member name 'ID3v2Frame.ID3V2_4FrameIdFieldLength' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ID3V2_4FrameSizeFieldLength" Kind="Field" Static="True" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="ID" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="Breaking">
+             <Issue Name="MemberAbbreviation" Certainty="85" Level="Error">Correct the casing of 'ID' in member name 'ID3v2Frame.ID3V2_4FrameSizeFieldLength' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Initialize(System.Byte[],System.Byte[],ID3Sharp.Models.ID3Versions)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="flags" TypeName="UsePreferredTerms" Category="Microsoft.Naming" CheckId="CA1726" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterNoAlternate" Certainty="95" Level="Error" Path="c:\Users\UEDP\Downloads\ID3Sharp-0.2-Dev-2006-02-25\ID3Sharp\Models" File="ID3v2Frame.cs" Line="290">In member 'ID3v2Frame.Initialize(byte[], byte[], ID3Versions)', replace the term 'flags' in parameter name 'flags' with an appropriate alternate or remove it entirely.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Type" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="PropertyNamesShouldNotMatchGetMethods" Category="Microsoft.Naming" CheckId="CA1721" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="Breaking">
+             <Issue Name="BaseType" Certainty="95" Level="Error" Path="c:\Users\UEDP\Downloads\ID3Sharp-0.2-Dev-2006-02-25\ID3Sharp\Models" File="ID3v2Frame.cs" Line="221">The property name 'ID3v2Frame.Type' is confusing given the existence of inherited method 'object.GetType()'. Rename or remove this property.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#WriteFlags(System.IO.Stream,ID3Sharp.Models.ID3Versions)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Flags" TypeName="UsePreferredTerms" Category="Microsoft.Naming" CheckId="CA1726" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="Breaking">
+             <Issue Name="MemberNoAlternate" Certainty="95" Level="Error" Path="c:\Users\UEDP\Downloads\ID3Sharp-0.2-Dev-2006-02-25\ID3Sharp\Models" File="ID3v2Frame.cs" Line="348">Replace the term 'Flags' in member name 'ID3v2Frame.WriteFlags(Stream, ID3Versions)' with an appropriate alternate or remove it entirely.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="ID3v2Tag" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message Id="ID" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="Breaking">
+           <Issue Name="TypeAbbreviation" Certainty="85" Level="Error">Correct the casing of 'ID' in type name 'ID3v2Tag' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+          </Message>
+          <Message Id="v" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="Breaking">
+           <Issue Name="Type" Certainty="85" Level="Error">Correct the casing of 'v' in type name 'ID3v2Tag' by changing it to 'V'.</Issue>
+          </Message>
+         </Messages>
+         <Members>
+          <Member Name="#AddHeadSpace(System.IO.Stream,System.Int32)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Warning" Path="c:\Users\UEDP\Downloads\ID3Sharp-0.2-Dev-2006-02-25\ID3Sharp\Models" File="ID3v2Tag.cs" Line="688">The 'this' parameter (or 'Me' in Visual Basic) of 'ID3v2Tag.AddHeadSpace(Stream, int)' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#HasTag(System.String)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="filename" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterShouldBeCompoundWord" Certainty="80" Level="Error" Path="c:\Users\UEDP\Downloads\ID3Sharp-0.2-Dev-2006-02-25\ID3Sharp\Models" File="ID3v2Tag.cs" Line="806">In member 'ID3v2Tag.HasTag(string)', the discrete term 'filename' in parameter name 'filename' should be expressed as a compound word, 'fileName'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#HeaderFlags" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Flags" TypeName="UsePreferredTerms" Category="Microsoft.Naming" CheckId="CA1726" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="Breaking">
+             <Issue Name="MemberNoAlternate" Certainty="95" Level="Error" Path="c:\Users\UEDP\Downloads\ID3Sharp-0.2-Dev-2006-02-25\ID3Sharp\Models" File="ID3v2Tag.cs" Line="211">Replace the term 'Flags' in member name 'ID3v2Tag.HeaderFlags' with an appropriate alternate or remove it entirely.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#LookForTag(System.String)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="filename" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterShouldBeCompoundWord" Certainty="80" Level="Error" Path="c:\Users\UEDP\Downloads\ID3Sharp-0.2-Dev-2006-02-25\ID3Sharp\Models" File="ID3v2Tag.cs" Line="829">In member 'ID3v2Tag.LookForTag(string)', the discrete term 'filename' in parameter name 'filename' should be expressed as a compound word, 'fileName'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ReadTag(System.String)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="filename" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterShouldBeCompoundWord" Certainty="80" Level="Error" Path="c:\Users\UEDP\Downloads\ID3Sharp-0.2-Dev-2006-02-25\ID3Sharp\Models" File="ID3v2Tag.cs" Line="891">In member 'ID3v2Tag.ReadTag(string)', the discrete term 'filename' in parameter name 'filename' should be expressed as a compound word, 'fileName'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#RemoveTag(System.String)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="filename" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterShouldBeCompoundWord" Certainty="80" Level="Error" Path="c:\Users\UEDP\Downloads\ID3Sharp-0.2-Dev-2006-02-25\ID3Sharp\Models" File="ID3v2Tag.cs" Line="1083">In member 'ID3v2Tag.RemoveTag(string)', the discrete term 'filename' in parameter name 'filename' should be expressed as a compound word, 'fileName'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#WriteFlags(System.IO.Stream,ID3Sharp.Models.ID3Versions)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Warning" Path="c:\Users\UEDP\Downloads\ID3Sharp-0.2-Dev-2006-02-25\ID3Sharp\Models" File="ID3v2Tag.cs" Line="785">The 'this' parameter (or 'Me' in Visual Basic) of 'ID3v2Tag.WriteFlags(Stream, ID3Versions)' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#WriteTag(System.IO.Stream,ID3Sharp.Models.ID3Versions)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="c:\Users\UEDP\Downloads\ID3Sharp-0.2-Dev-2006-02-25\ID3Sharp\Models" File="ID3v2Tag.cs" Line="595">In externally visible method 'ID3v2Tag.WriteTag(Stream, ID3Versions)', validate parameter 'stream' before using it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#WriteVersion(System.IO.Stream,ID3Sharp.Models.ID3Versions)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Warning" Path="c:\Users\UEDP\Downloads\ID3Sharp-0.2-Dev-2006-02-25\ID3Sharp\Models" File="ID3v2Tag.cs" Line="755">The 'this' parameter (or 'Me' in Visual Basic) of 'ID3v2Tag.WriteVersion(Stream, ID3Versions)' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="ID3Versions" Kind="Enum" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message Id="ID" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="Breaking">
+           <Issue Name="TypeAbbreviation" Certainty="85" Level="Error">Correct the casing of 'ID' in type name 'ID3Versions' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="TagHeaderFlagsV2" Kind="Enum" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="FlagsEnumsShouldHavePluralNames" Category="Microsoft.Naming" CheckId="CA1714" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="Breaking">
+           <Issue Certainty="75" Level="Error">If enumeration name 'TagHeaderFlagsV2' is singular, change it to a plural form.</Issue>
+          </Message>
+          <Message Id="Flags" TypeName="UsePreferredTerms" Category="Microsoft.Naming" CheckId="CA1726" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="Breaking">
+           <Issue Name="TypeNoAlternate" Certainty="95" Level="Error">Replace the term 'Flags' in type name 'TagHeaderFlagsV2' with an appropriate alternate or remove it entirely.</Issue>
+          </Message>
+         </Messages>
+         <Members>
+          <Member Name="#Unsynchronization" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Unsynchronization" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Unsynchronization' in member name 'TagHeaderFlagsV2.Unsynchronization' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="TagHeaderFlagsV2_2" Kind="Enum" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="FlagsEnumsShouldHavePluralNames" Category="Microsoft.Naming" CheckId="CA1714" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="Breaking">
+           <Issue Certainty="75" Level="Error">If enumeration name 'TagHeaderFlagsV2_2' is singular, change it to a plural form.</Issue>
+          </Message>
+          <Message Id="Flags" TypeName="UsePreferredTerms" Category="Microsoft.Naming" CheckId="CA1726" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="Breaking">
+           <Issue Name="TypeNoAlternate" Certainty="95" Level="Error">Replace the term 'Flags' in type name 'TagHeaderFlagsV2_2' with an appropriate alternate or remove it entirely.</Issue>
+          </Message>
+         </Messages>
+         <Members>
+          <Member Name="#Unsynchronization" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Unsynchronization" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Unsynchronization' in member name 'TagHeaderFlagsV2_2.Unsynchronization' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="TagHeaderFlagsV2_3" Kind="Enum" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="FlagsEnumsShouldHavePluralNames" Category="Microsoft.Naming" CheckId="CA1714" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="Breaking">
+           <Issue Certainty="75" Level="Error">If enumeration name 'TagHeaderFlagsV2_3' is singular, change it to a plural form.</Issue>
+          </Message>
+          <Message Id="Flags" TypeName="UsePreferredTerms" Category="Microsoft.Naming" CheckId="CA1726" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="Breaking">
+           <Issue Name="TypeNoAlternate" Certainty="95" Level="Error">Replace the term 'Flags' in type name 'TagHeaderFlagsV2_3' with an appropriate alternate or remove it entirely.</Issue>
+          </Message>
+         </Messages>
+         <Members>
+          <Member Name="#Unsynchronization" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Unsynchronization" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Unsynchronization' in member name 'TagHeaderFlagsV2_3.Unsynchronization' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="TagHeaderFlagsV2_4" Kind="Enum" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="FlagsEnumsShouldHavePluralNames" Category="Microsoft.Naming" CheckId="CA1714" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="Breaking">
+           <Issue Certainty="75" Level="Error">If enumeration name 'TagHeaderFlagsV2_4' is singular, change it to a plural form.</Issue>
+          </Message>
+          <Message Id="Flags" TypeName="UsePreferredTerms" Category="Microsoft.Naming" CheckId="CA1726" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="Breaking">
+           <Issue Name="TypeNoAlternate" Certainty="95" Level="Error">Replace the term 'Flags' in type name 'TagHeaderFlagsV2_4' with an appropriate alternate or remove it entirely.</Issue>
+          </Message>
+         </Messages>
+         <Members>
+          <Member Name="#Unsynchronization" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Unsynchronization" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-08-18 18:06:33Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Unsynchronization' in member name 'TagHeaderFlagsV2_4.Unsynchronization' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+     </Namespaces>
+    </Module>
+   </Modules>
+  </Target>
+ </Targets>
+ <Rules>
+  <Rule TypeName="AssembliesShouldHaveValidStrongNames" Category="Microsoft.Design" CheckId="CA2210">
+   <Name>Assemblies should have valid strong names</Name>
+   <Description>Either the assembly has no strong name, an invalid one, or the strong name is valid only because of the computer configuration. The assembly should not be deployed in this state. The most common causes of this are: 1) The assembly's contents were modified after it was signed. 2) The signing process failed. 3) The assembly was delay-signed. 4) A registry key existed that allowed the check to pass (where it would not have otherwise).</Description>
+   <Resolution Name="NoStrongName">Sign {0} with a strong name key.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182127.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">CriticalError</MessageLevel>
+   <File Name="designrules.dll" Version="12.0.0.0" />
+  </Rule>
+  <Rule TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811">
+   <Name>Avoid uncalled private code</Name>
+   <Description>There is uncalled code that is not externally visible and is not a known runtime entry point. If this violation fires in error, please send a problem report to the Visual Studio Code Analysis team.</Description>
+   <Resolution Name="Default">{0} appears to have no upstream public or protected callers.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182264.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="performancerules.dll" Version="12.0.0.0" />
+  </Rule>
+  <Rule TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702">
+   <Name>Compound words should be cased correctly</Name>
+   <Description>Avoid creating compound words from terms which exist in the dictionary as discrete terms. Do not create a compound word such as 'StopWatch' or 'PopUp'. These terms are recognized in the dictionary and should be cased as 'Stopwatch' and 'Popup'.</Description>
+   <Resolution Name="MemberParameterShouldBeCompoundWord">In member {0}, the discrete term '{1}' in parameter name {2} should be expressed as a compound word, '{3}'.</Resolution>
+   <Resolution Name="MemberShouldBeCompoundWord">The discrete term '{0}' in member name {1} should be expressed as a compound word, '{2}'.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/bb264474.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="80">Error</MessageLevel>
+   <File Name="namingrules.dll" Version="12.0.0.0" />
+  </Rule>
+  <Rule TypeName="DefaultParametersShouldNotBeUsed" Category="Microsoft.Design" CheckId="CA1026">
+   <Name>Default parameters should not be used</Name>
+   <Description>Some programming languages do not support default parameters. Replace default parameters with method overloads that supply the default argument.</Description>
+   <Resolution Name="Default">Replace method {0} with an overload that supplies all default arguments.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182135.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">Error</MessageLevel>
+   <File Name="designrules.dll" Version="12.0.0.0" />
+  </Rule>
+  <Rule TypeName="DoNotCatchGeneralExceptionTypes" Category="Microsoft.Design" CheckId="CA1031">
+   <Name>Do not catch general exception types</Name>
+   <Description>You should not catch Exception or SystemException. Catching generic exception types can hide run-time problems from the library user, and can complicate debugging. You should catch only those exceptions that you can handle gracefully.</Description>
+   <Resolution Name="Default">Modify {0} to catch a more specific exception than {1} or rethrow the exception.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182137.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">CriticalError</MessageLevel>
+   <File Name="designrules.dll" Version="12.0.0.0" />
+  </Rule>
+  <Rule TypeName="DoNotDeclareReadOnlyMutableReferenceTypes" Category="Microsoft.Security" CheckId="CA2104">
+   <Name>Do not declare read only mutable reference types</Name>
+   <Description>A read-only declaration for a mutable reference type does not prevent the field's instance data from being modified. For example, a read-only StringBuilder field declaration does not make sense, since the data encapsulated by the StringBuilder can be modified using the read-only reference.</Description>
+   <Resolution Name="Default">Remove the read-only designation from {0} or change the field to one that is an immutable reference type. If the reference type {1} is, in fact, immutable, exclude this message.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182302.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="25">Error</MessageLevel>
+   <File Name="securityrules.dll" Version="12.0.0.0" />
+  </Rule>
+  <Rule TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051">
+   <Name>Do not declare visible instance fields</Name>
+   <Description>Instance fields that are visible outside of the type that declares them, limit your ability to change the implementation details for those data items. Use properties instead. They do not compromise usability or performance and they do provide flexibility in that they conceal the implementation details of the underlying data.</Description>
+   <Resolution Name="Default">Because field {0} is visible outside of its declaring type, change its accessibility to private and add a property, with the same accessibility as the field has currently, to provide access to it.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182141.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="90">Error</MessageLevel>
+   <File Name="designrules.dll" Version="12.0.0.0" />
+  </Rule>
+  <Rule TypeName="FlagsEnumsShouldHavePluralNames" Category="Microsoft.Naming" CheckId="CA1714">
+   <Name>Flags enums should have plural names</Name>
+   <Description>An enumeration marked with FlagsAttribute should have a plural name.</Description>
+   <Resolution Name="Default">If enumeration name {0} is singular, change it to a plural form.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/bb264486.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">Error</MessageLevel>
+   <File Name="namingrules.dll" Version="12.0.0.0" />
+  </Rule>
+  <Rule TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709">
+   <Name>Identifiers should be cased correctly</Name>
+   <Description>Type, namespace, and member identifiers are Pascal-cased. Parameter identifiers are camel-cased. Two letter acronyms within these identifiers should be upper-cased, for example, use System.IO instead of System.Io. Acronyms of three or more letters should be Pascal-cased, for example, use System.Xml instead of System.XML. The pascal-casing convention capitalizes the first letter of each word, as in BackColor. The camel-casing convention formats the first letter of the first word in lowercase and capitalizes the first letter of all subsequent words, as in backgroundColor. Although it may be common practice for some two letter acronyms to not be fully capitalized, violations of this rule should not be excluded for this reason. For example, 'DbConnection', is common but incorrect; use DBConnection. A violation of this rule might be required for compatibility with existing, non-managed symbol schemes. In general, however, these symbols should not be visible outside the assembly that uses them.</Description>
+   <Resolution Name="AssemblyAbbreviation">Correct the casing of '{0}' in assembly name {1} by changing it to '{2}'. '{2}' is an abbreviation and therefore is not subject to acronym casing guidelines.</Resolution>
+   <Resolution Name="Member">Correct the casing of '{0}' in member name {1} by changing it to '{2}'.</Resolution>
+   <Resolution Name="MemberAbbreviation">Correct the casing of '{0}' in member name {1} by changing it to '{2}'. '{2}' is an abbreviation and therefore is not subject to acronym casing guidelines.</Resolution>
+   <Resolution Name="NamespaceAbbreviation">Correct the casing of '{0}' in namespace name '{1}' by changing it to '{2}'. '{2}' is an abbreviation and therefore is not subject to acronym casing guidelines.</Resolution>
+   <Resolution Name="Type">Correct the casing of '{0}' in type name {1} by changing it to '{2}'.</Resolution>
+   <Resolution Name="TypeAbbreviation">Correct the casing of '{0}' in type name {1} by changing it to '{2}'. '{2}' is an abbreviation and therefore is not subject to acronym casing guidelines.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182240.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="85">Error</MessageLevel>
+   <File Name="namingrules.dll" Version="12.0.0.0" />
+  </Rule>
+  <Rule TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704">
+   <Name>Identifiers should be spelled correctly</Name>
+   <Description>The individual words that make up an identifier should not be abbreviated and should be spelled correctly. If this rule generates a false positive on a term that should be recognized, add the word to the FxCop custom dictionary.</Description>
+   <Resolution Name="Member">Correct the spelling of '{0}' in member name {1} or remove it entirely if it represents any sort of Hungarian notation.</Resolution>
+   <Resolution Name="MemberParameter">In method {0}, correct the spelling of '{1}' in parameter name {2} or remove it entirely if it represents any sort of Hungarian notation.</Resolution>
+   <Resolution Name="Type">Correct the spelling of '{0}' in type name {1}.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/bb264492.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">CriticalWarning</MessageLevel>
+   <File Name="namingrules.dll" Version="12.0.0.0" />
+  </Rule>
+  <Rule TypeName="IdentifiersShouldNotContainTypeNames" Category="Microsoft.Naming" CheckId="CA1720">
+   <Name>Identifiers should not contain type names</Name>
+   <Description>Avoid using language-specific types name in parameters and members and data type identifiers in parameters. Types names might not be intuitive for all developers. It is recommended that you select a generic name, such as 'value', instead. If this is not sufficient, be sure to use the type name as it is defined in the .NET Framework Library and avoid language-specific type names completely. Some examples of C#-specific type names are 'float' (use 'Single' if a generic name is not sufficient), and 'ulong' (use 'UInt64' if a generic name is not sufficient).</Description>
+   <Resolution Name="LanguageIndependentDelegateParameter">In delegate {0}, consider replacing the data type identifier '{1}' in parameter name {2} with a more generic term, such as 'value'.</Resolution>
+   <Resolution Name="LanguageIndependentMemberParameter">In member {0}, consider replacing the data type identifier '{1}' in parameter name {2} with a more generic term, such as 'value'.</Resolution>
+   <Resolution Name="LanguageSpecificMember">Consider replacing the language-specific data type identifier '{0}' in member name {1} with either a language-independent equivalent or a more generic term, such as 'value'.</Resolution>
+   <Resolution Name="LanguageSpecificMemberParameter">In member {0}, consider replacing the language-specific data type identifier '{1}' in parameter name {2} with a more generic term, such as 'value'.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/bb531486.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">Error</MessageLevel>
+   <File Name="namingrules.dll" Version="12.0.0.0" />
+  </Rule>
+  <Rule TypeName="IdentifiersShouldNotContainUnderscores" Category="Microsoft.Naming" CheckId="CA1707">
+   <Name>Identifiers should not contain underscores</Name>
+   <Description>Do not use underscores when specifying identifiers. Some generated Visual Studio identifiers for applications contain underscore characters. Underscore characters should generally be avoided in public identifiers.</Description>
+   <Resolution Name="Member">Remove the underscores from member name {0}.</Resolution>
+   <Resolution Name="Type">Remove the underscores from type name {0}.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182245.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="namingrules.dll" Version="12.0.0.0" />
+  </Rule>
+  <Rule TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204">
+   <Name>Literals should be spelled correctly</Name>
+   <Description>This rule parses the literal string into words, tokenizing compound words, and checks the spelling of each word/token.</Description>
+   <Resolution Name="Default">Correct the spelling of the unrecognized token '{0}' in the literal '{1}'.</Resolution>
+   <Owner>RuleOwner</Owner>
+   <Url>http://msdn.microsoft.com/library/bb264488.aspx</Url>
+   <Email />
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="dataflowrules.dll" Version="12.0.0.0" />
+  </Rule>
+  <Rule TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822">
+   <Name>Mark members as static</Name>
+   <Description>Methods which do not access instance data or call instance methods can be marked as static (Shared in Visual Basic). After doing so, the compiler will emit non-virtual call sites to these members which will prevent a check at runtime for each call that ensures the current object pointer is non-null. This can result in a measurable performance gain for performance-sensitive code. In some cases, the failure to access the current object instance represents a correctness issue.</Description>
+   <Resolution Name="Default">The 'this' parameter (or 'Me' in Visual Basic) of {0} is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms245046.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Warning</MessageLevel>
+   <File Name="performancerules.dll" Version="12.0.0.0" />
+  </Rule>
+  <Rule TypeName="NestedTypesShouldNotBeVisible" Category="Microsoft.Design" CheckId="CA1034">
+   <Name>Nested types should not be visible</Name>
+   <Description>Do not use public, protected or protected internal (Protected Friend) nested types as a way of grouping types. Use namespaces for this purpose. There are very limited scenarios where nested types are the best design. Also, nested type member accessibility is not clearly understood by all audiences. Enumerators are exempt from this rule.</Description>
+   <Resolution Name="Default">Do not nest type {0}. Alternatively, change its accessibility so that it is not externally visible.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182162.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="90">Error</MessageLevel>
+   <File Name="designrules.dll" Version="12.0.0.0" />
+  </Rule>
+  <Rule TypeName="PropertiesShouldNotReturnArrays" Category="Microsoft.Performance" CheckId="CA1819">
+   <Name>Properties should not return arrays</Name>
+   <Description>Properties that return arrays are prone to code inefficiencies. Consider using a collection or making this a method. See the design guidelines for more information.</Description>
+   <Resolution Name="Default">Change {0} to return a collection or make it a method.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/0fss9skc.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="50">Warning</MessageLevel>
+   <File Name="performancerules.dll" Version="12.0.0.0" />
+  </Rule>
+  <Rule TypeName="PropertyNamesShouldNotMatchGetMethods" Category="Microsoft.Naming" CheckId="CA1721">
+   <Name>Property names should not match get methods</Name>
+   <Description>A Get method was found with the same name as a property. Get methods and properties should have names that clearly distinguish their function. See the design guidelines for information regarding choosing properties over methods.</Description>
+   <Resolution Name="BaseType">The property name {0} is confusing given the existence of inherited method {1}. Rename or remove this property.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182253.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="namingrules.dll" Version="12.0.0.0" />
+  </Rule>
+  <Rule TypeName="RemoveUnusedLocals" Category="Microsoft.Performance" CheckId="CA1804">
+   <Name>Remove unused locals</Name>
+   <Description>Remove locals that are not used or are only assigned to in method implementations.</Description>
+   <Resolution Name="Default">{0} declares a variable, {1}, of type {2}, which is never used or is only assigned to. Use this variable or remove it.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182278.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Warning</MessageLevel>
+   <File Name="performancerules.dll" Version="12.0.0.0" />
+  </Rule>
+  <Rule TypeName="SpecifyStringComparison" Category="Microsoft.Globalization" CheckId="CA1307">
+   <Name>Specify StringComparison</Name>
+   <Description>If an overload exists that takes a StringComparison argument, it should always be called in favor of an overload that does not.</Description>
+   <Resolution Name="Default">Because the behavior of {0} could vary based on the current user's locale settings, replace this call in {1} with a call to {2}. If the result of {2} will be displayed to the user, such as when sorting a list of items for display in a list box, specify 'StringComparison.CurrentCulture' or 'StringComparison.CurrentCultureIgnoreCase' as the 'StringComparison' parameter. If comparing case-insensitive identifiers, such as file paths, environment variables, or registry keys and values, specify 'StringComparison.OrdinalIgnoreCase'. Otherwise, if comparing case-sensitive identifiers, specify 'StringComparison.Ordinal'.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/bb386080.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="globalizationrules.dll" Version="12.0.0.0" />
+  </Rule>
+  <Rule TypeName="TestForEmptyStringsUsingStringLength" Category="Microsoft.Performance" CheckId="CA1820">
+   <Name>Test for empty strings using string length</Name>
+   <Description>To test for empty strings, check if String.Length is equal to zero. Constructs such as "".Equals(someString) and String.Empty.Equals(someString) are less efficient than testing the string length. Replace these with checks for someString.Length == 0.</Description>
+   <Resolution Name="IsNullOrEmpty">Replace the call to {0} in {1} with a call to 'String.IsNullOrEmpty'.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182279.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Warning</MessageLevel>
+   <File Name="performancerules.dll" Version="12.0.0.0" />
+  </Rule>
+  <Rule TypeName="UriPropertiesShouldNotBeStrings" Category="Microsoft.Design" CheckId="CA1056">
+   <Name>URI properties should not be strings</Name>
+   <Description>If a property name contains "uri" or "url" or "urn" and it's typed as string, it should be changed to System.Uri.</Description>
+   <Resolution Name="Default">Change the type of property {0} from string to System.Uri.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182175.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">Error</MessageLevel>
+   <File Name="designrules.dll" Version="12.0.0.0" />
+  </Rule>
+  <Rule TypeName="UseOrdinalStringComparison" Category="Microsoft.Globalization" CheckId="CA1309">
+   <Name>Use ordinal StringComparison</Name>
+   <Description>For non-linguistic comparisons, StringComparison.Ordinal or StringComparison.OrdinalIgnoreCase should be used instead of the linguistically-sensitive StringComparison.InvariantCulture.</Description>
+   <Resolution Name="StringComparison">{0} passes '{1}' as the 'StringComparison' parameter to {2}. To perform a non-linguistic comparison, specify 'StringComparison.Ordinal' or 'StringComparison.OrdinalIgnoreCase' instead.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/bb385972.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">Error</MessageLevel>
+   <File Name="globalizationrules.dll" Version="12.0.0.0" />
+  </Rule>
+  <Rule TypeName="UsePreferredTerms" Category="Microsoft.Naming" CheckId="CA1726">
+   <Name>Use preferred terms</Name>
+   <Description>Use preferred terms over deprecated alternates.</Description>
+   <Resolution Name="MemberNoAlternate">Replace the term '{0}' in member name {1} with an appropriate alternate or remove it entirely.</Resolution>
+   <Resolution Name="MemberParameterNoAlternate">In member {0}, replace the term '{1}' in parameter name {2} with an appropriate alternate or remove it entirely.</Resolution>
+   <Resolution Name="TypeNoAlternate">Replace the term '{0}' in type name {1} with an appropriate alternate or remove it entirely.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182258.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="namingrules.dll" Version="12.0.0.0" />
+  </Rule>
+  <Rule TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062">
+   <Name>Validate arguments of public methods</Name>
+   <Description>All reference arguments passed to externally visible methods should be checked against null (Nothing in VB). If appropriate, throw a System.ArgumentNullException when the argument is null.</Description>
+   <Resolution Name="Default">In externally visible method {0}, validate parameter '{1}' before using it.</Resolution>
+   <Owner>RuleOwner</Owner>
+   <Url>http://msdn.microsoft.com/library/ms182182.aspx</Url>
+   <Email />
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="dataflowrules.dll" Version="12.0.0.0" />
+  </Rule>
+ </Rules>
+ <Localized>
+  <String Key="Category">Category</String>
+  <String Key="Certainty">Certainty</String>
+  <String Key="CollapseAll">Collapse All</String>
+  <String Key="CheckId">Check Id</String>
+  <String Key="Error">Error</String>
+  <String Key="Errors">error(s)</String>
+  <String Key="ExpandAll">Expand All</String>
+  <String Key="Help">Help</String>
+  <String Key="Line">Line</String>
+  <String Key="Messages">message(s)</String>
+  <String Key="LocationNotStoredInPdb">[Location not stored in Pdb]</String>
+  <String Key="Project">Project</String>
+  <String Key="Resolution">Resolution</String>
+  <String Key="Rule">Rule</String>
+  <String Key="RuleFile">Rule File</String>
+  <String Key="RuleDescription">Rule Description</String>
+  <String Key="Source">Source</String>
+  <String Key="Status">Status</String>
+  <String Key="Target">Target</String>
+  <String Key="Warning">Warning</String>
+  <String Key="Warnings">warning(s)</String>
+  <String Key="ReportTitle">Code Analysis Report</String>
+ </Localized>
+</FxCopReport>

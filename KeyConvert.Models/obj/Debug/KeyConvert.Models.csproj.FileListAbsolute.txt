@@ -1,0 +1,7 @@
+C:\Users\UEDP\Downloads\ID3Sharp-0.2-Dev-2006-02-25\ID3Sharp\KeyConvert.Models\bin\Debug\KeyConvert.Models.dll
+C:\Users\UEDP\Downloads\ID3Sharp-0.2-Dev-2006-02-25\ID3Sharp\KeyConvert.Models\bin\Debug\KeyConvert.Models.pdb
+C:\Users\UEDP\Downloads\ID3Sharp-0.2-Dev-2006-02-25\ID3Sharp\KeyConvert.Models\bin\Debug\ID3Sharp.dll
+C:\Users\UEDP\Downloads\ID3Sharp-0.2-Dev-2006-02-25\ID3Sharp\KeyConvert.Models\bin\Debug\ID3Sharp.pdb
+C:\Users\UEDP\Downloads\ID3Sharp-0.2-Dev-2006-02-25\ID3Sharp\KeyConvert.Models\obj\Debug\KeyConvert.Models.csprojResolveAssemblyReference.cache
+C:\Users\UEDP\Downloads\ID3Sharp-0.2-Dev-2006-02-25\ID3Sharp\KeyConvert.Models\obj\Debug\KeyConvert.Models.dll
+C:\Users\UEDP\Downloads\ID3Sharp-0.2-Dev-2006-02-25\ID3Sharp\KeyConvert.Models\obj\Debug\KeyConvert.Models.pdb

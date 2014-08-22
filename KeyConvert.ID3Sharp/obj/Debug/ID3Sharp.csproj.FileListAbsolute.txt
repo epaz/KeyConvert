@@ -1,0 +1,8 @@
+C:\Users\UEDP\Downloads\ID3Sharp-0.2-Dev-2006-02-25\ID3Sharp\bin\Debug\ID3Sharp.exe.config
+C:\Users\UEDP\Downloads\ID3Sharp-0.2-Dev-2006-02-25\ID3Sharp\bin\Debug\ID3Sharp.exe
+C:\Users\UEDP\Downloads\ID3Sharp-0.2-Dev-2006-02-25\ID3Sharp\bin\Debug\ID3Sharp.pdb
+C:\Users\UEDP\Downloads\ID3Sharp-0.2-Dev-2006-02-25\ID3Sharp\bin\Debug\ID3Sharp.exe.CodeAnalysisLog.xml
+C:\Users\UEDP\Downloads\ID3Sharp-0.2-Dev-2006-02-25\ID3Sharp\bin\Debug\ID3Sharp.exe.lastcodeanalysissucceeded
+C:\Users\UEDP\Downloads\ID3Sharp-0.2-Dev-2006-02-25\ID3Sharp\obj\Debug\ID3Sharp.csprojResolveAssemblyReference.cache
+C:\Users\UEDP\Downloads\ID3Sharp-0.2-Dev-2006-02-25\ID3Sharp\obj\Debug\ID3Sharp.exe
+C:\Users\UEDP\Downloads\ID3Sharp-0.2-Dev-2006-02-25\ID3Sharp\obj\Debug\ID3Sharp.pdb
