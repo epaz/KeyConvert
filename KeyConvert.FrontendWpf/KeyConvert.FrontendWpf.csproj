@@ -128,9 +128,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\KeyConvert.ID3Sharp\KeyConvert.ID3Sharp.csproj">
-      <Project>{845b47a5-0529-47bd-afec-533a2de1b6fa}</Project>
-      <Name>KeyConvert.ID3Sharp</Name>
+    <ProjectReference Include="..\KeyConvert.Convert\KeyConvert.Convert.csproj">
+      <Project>{682df4ba-1fe0-4fc2-8da0-bb007405a6db}</Project>
+      <Name>KeyConvert.Convert</Name>
     </ProjectReference>
     <ProjectReference Include="..\KeyConvert.Utils\KeyConvert.Utils.csproj">
       <Project>{d3696841-d048-4270-b178-4f38ecdb86de}</Project>

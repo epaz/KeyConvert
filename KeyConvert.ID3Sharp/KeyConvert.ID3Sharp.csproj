@@ -98,7 +98,7 @@
     <Compile Include="IO\IOValidationException.cs" />
     <Compile Include="IO\SynchsafeInteger.cs" />
     <Compile Include="IO\TextEncodingType.cs" />
-    <Compile Include="KeyConverter.cs" />
+    <Compile Include="Id3SharpKeyConverter.cs" />
     <Compile Include="KeyConverterResult.cs" />
     <Compile Include="Models\ID3Genre.cs" />
     <Compile Include="Models\ID3Tag.cs" />

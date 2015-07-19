@@ -4,17 +4,16 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{DF10640F-6641-49D2-A799-9D3EDAE2265B}</ProjectGuid>
-    <OutputType>Exe</OutputType>
+    <ProjectGuid>{682DF4BA-1FE0-4FC2-8DA0-BB007405A6DB}</ProjectGuid>
+    <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>KeyConvert.FrontendConsole</RootNamespace>
-    <AssemblyName>KeyConvert.FrontendConsole</AssemblyName>
+    <RootNamespace>KeyConvert.Convert</RootNamespace>
+    <AssemblyName>KeyConvert.Convert</AssemblyName>
     <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -24,7 +23,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -42,16 +40,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="Id3SharpConverter.cs" />
+    <Compile Include="KeyConverterResult.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\KeyConvert.Convert\KeyConvert.Convert.csproj">
-      <Project>{682df4ba-1fe0-4fc2-8da0-bb007405a6db}</Project>
-      <Name>KeyConvert.Convert</Name>
+    <ProjectReference Include="..\KeyConvert.ID3Sharp\KeyConvert.ID3Sharp.csproj">
+      <Project>{845b47a5-0529-47bd-afec-533a2de1b6fa}</Project>
+      <Name>KeyConvert.ID3Sharp</Name>
     </ProjectReference>
     <ProjectReference Include="..\KeyConvert.Utils\KeyConvert.Utils.csproj">
       <Project>{d3696841-d048-4270-b178-4f38ecdb86de}</Project>

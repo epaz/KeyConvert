@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 using KeyConvert.Utils;
-using KeyConvert;
+using KeyConvert.Convert;
 
 namespace KeyConvert.FrontendConsole
 {
@@ -17,6 +17,10 @@ namespace KeyConvert.FrontendConsole
             {
                 _musicFilesDirectoryPath = string.IsNullOrWhiteSpace(args[0]) ? @"C:\KeyConvert" : args[0];
             }
+            else
+            {
+                _musicFilesDirectoryPath = @"C:\KeyConvert";
+            }
 
             // log beginning on Console & log
             var initialMsg = string.Format("Beginning conversion on all files in directory: {0}", _musicFilesDirectoryPath);
@@ -26,7 +30,7 @@ namespace KeyConvert.FrontendConsole
             // run converter
             try
             {
-                ID3KeyConverter.ConvertFiles(_musicFilesDirectoryPath, true, _log);
+                Id3SharpKeyConverter.ConvertFiles(_musicFilesDirectoryPath, true, _log);
                 Console.Write("\n");
             }
             catch (Exception e)

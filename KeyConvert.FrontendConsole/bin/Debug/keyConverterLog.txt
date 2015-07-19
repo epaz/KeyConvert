@@ -1,6 +1,6 @@
-11:28:57.921 INFO: Beginning conversion on all files in directory: 
-11:28:57.983 ERROR: Exception caught running conversion. Message: Value cannot be null.
-Parameter name: path. Stacktrace:    at System.IO.Directory.GetFiles(String path, String searchPattern, SearchOption searchOption)
-   at KeyConvert.ID3KeyConverter.ConvertFiles(String musicFilesDirectoryPath, Boolean outputToConsole, Logger log) in c:\Users\UEDP\Downloads\ID3Sharp-0.2-Dev-2006-02-25\KeyConvert\KeyConvert.ID3Sharp\KeyConverter.cs:line 58
-   at KeyConvert.FrontendConsole.Program.Main(String[] args) in c:\Users\UEDP\Downloads\ID3Sharp-0.2-Dev-2006-02-25\KeyConvert\KeyConvert.FrontendConsole\Program.cs:line 29
-11:28:57.985 ERROR: Done converting files. Exiting...
+23:03:12.84 INFO: Beginning conversion on all files in directory: C:\KeyConvert
+23:03:12.862 INFO: Found 1 files to convert.
+23:03:12.871 INFO: Reading file 6278353_Engage_Original_Mix.mp3
+23:03:12.918 WARN: No replacement key found for orginal key "3B" for file 6278353_Engage_Original_Mix.mp3. Skipping file.
+23:03:12.931 INFO: Done! Successfully converted 1 of 0 files.
+23:03:12.932 ERROR: Done converting files. Exiting...

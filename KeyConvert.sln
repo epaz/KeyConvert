@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.30501.0
+VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeyConvert.FrontendConsole", "KeyConvert.FrontendConsole\KeyConvert.FrontendConsole.csproj", "{DF10640F-6641-49D2-A799-9D3EDAE2265B}"
 EndProject
@@ -10,6 +10,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeyConvert.Utils", "KeyConvert.Utils\KeyConvert.Utils.csproj", "{D3696841-D048-4270-B178-4F38ECDB86DE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeyConvert.ID3Sharp", "KeyConvert.ID3Sharp\KeyConvert.ID3Sharp.csproj", "{845B47A5-0529-47BD-AFEC-533A2DE1B6FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeyConvert.Convert", "KeyConvert.Convert\KeyConvert.Convert.csproj", "{682DF4BA-1FE0-4FC2-8DA0-BB007405A6DB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{845B47A5-0529-47BD-AFEC-533A2DE1B6FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{845B47A5-0529-47BD-AFEC-533A2DE1B6FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{845B47A5-0529-47BD-AFEC-533A2DE1B6FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{682DF4BA-1FE0-4FC2-8DA0-BB007405A6DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{682DF4BA-1FE0-4FC2-8DA0-BB007405A6DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{682DF4BA-1FE0-4FC2-8DA0-BB007405A6DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{682DF4BA-1FE0-4FC2-8DA0-BB007405A6DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

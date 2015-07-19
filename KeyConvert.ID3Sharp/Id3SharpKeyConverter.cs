@@ -7,7 +7,7 @@ using KeyConvert.Utils;
 
 namespace KeyConvert
 {
-    public class ID3KeyConverter
+    public class Id3SharpKeyConverter
     {
         #region KeyDictionarys
         private static readonly Dictionary<String, String> _keysDictionary = new Dictionary<string, string>

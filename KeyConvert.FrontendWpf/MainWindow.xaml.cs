@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Deployment.Application;
 using System.IO;
 using System.Linq;
 using System.Reflection;
@@ -8,9 +7,9 @@ using System.Windows;
 using System.Windows.Documents;
 using System.Windows.Media;
 using System.Windows.Media.Animation;
-using ID3Sharp;
+using KeyConvert.Convert;
+using Microsoft.Win32;
 using Microsoft.WindowsAPICodePack.Dialogs;
-using KeyConvert;
 
 namespace FrontendWpf
 {
@@ -55,7 +54,7 @@ namespace FrontendWpf
 
         private void SaveLogFileButton_OnClick(object sender, RoutedEventArgs e)
         {
-            var saveDialog = new Microsoft.Win32.SaveFileDialog
+            var saveDialog = new SaveFileDialog
             {
                 FileName = "keyConvertLog.txt",
                 InitialDirectory = Directory.GetCurrentDirectory(),
@@ -104,7 +103,7 @@ namespace FrontendWpf
                 }
                 else
                 {
-                    KeyConverterResult result = ID3KeyConverter.ConvertFiles(MusicDirectoryTextBox.Text, false, _log);
+                    KeyConverterResult result = Id3SharpKeyConverter.ConvertFiles(MusicDirectoryTextBox.Text, false, _log);
 
                     if (result.Success)
                     {
@@ -140,9 +139,9 @@ namespace FrontendWpf
         {
             window.BeginInit();
             //setting SizeToContent of window to Height get you the exact value of window height required to display completely
-            window.SizeToContent = System.Windows.SizeToContent.Height;
+            window.SizeToContent = SizeToContent.Height;
             double height = window.ActualHeight;
-            window.SizeToContent = System.Windows.SizeToContent.Manual;
+            window.SizeToContent = SizeToContent.Manual;
             //run the animation code at backgroud for smoothness
             window.Dispatcher.BeginInvoke(new Action(() =>
             {
