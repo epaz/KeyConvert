@@ -14,6 +14,5 @@ C:\Users\UEDP\Downloads\ID3Sharp-0.2-Dev-2006-02-25\KeyConvert\KeyConvert.Utils\
 C:\Users\UEDP\Downloads\ID3Sharp-0.2-Dev-2006-02-25\KeyConvert\KeyConvert.Utils\obj\Debug\KeyConvert.Utils.pdb
 C:\Source\KeyConvert\KeyConvert.Utils\bin\Debug\KeyConvert.Utils.dll
 C:\Source\KeyConvert\KeyConvert.Utils\bin\Debug\KeyConvert.Utils.pdb
-C:\Source\KeyConvert\KeyConvert.Utils\obj\Debug\KeyConvert.Utils.csprojResolveAssemblyReference.cache
 C:\Source\KeyConvert\KeyConvert.Utils\obj\Debug\KeyConvert.Utils.dll
 C:\Source\KeyConvert\KeyConvert.Utils\obj\Debug\KeyConvert.Utils.pdb

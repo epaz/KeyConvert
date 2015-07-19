@@ -103,12 +103,13 @@ namespace FrontendWpf
                 }
                 else
                 {
-                    KeyConverterResult result = Id3SharpKeyConverter.ConvertFiles(MusicDirectoryTextBox.Text, false, _log);
+                    var converter = new Id3SharpKeyConverter();
+                    var converterResult = converter.ConvertFiles(MusicDirectoryTextBox.Text, false, KeyDictionaries.CamelotDictionary, _log);
 
-                    if (result.Success)
+                    if (converterResult.Success)
                     {
                         resultMsg = new Run(string.Format("Done! {0} of {1} files successfully converted. See log for more details.",
-                                        result.ConvertedFilesCount, result.TotalFilesCount))
+                                        converterResult.ConvertedFilesCount, converterResult.TotalFilesCount))
                         {
                             Foreground = Brushes.Green
                         };
@@ -116,7 +117,7 @@ namespace FrontendWpf
                     else
                     {
                         var errorMsg = new StringBuilder("Conversion failed.");
-                        foreach (string error in result.Errors)
+                        foreach (string error in converterResult.Errors)
                         {
                             errorMsg.Append(" " + error);
                         }

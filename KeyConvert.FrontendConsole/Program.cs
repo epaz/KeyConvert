@@ -30,7 +30,9 @@ namespace KeyConvert.FrontendConsole
             // run converter
             try
             {
-                Id3SharpKeyConverter.ConvertFiles(_musicFilesDirectoryPath, true, _log);
+                var converter = new Id3SharpKeyConverter();
+                converter.ConvertFiles(_musicFilesDirectoryPath, true, KeyDictionaries.CamelotDictionary, _log);
+
                 Console.Write("\n");
             }
             catch (Exception e)

@@ -2,9 +2,9 @@
 
 namespace KeyConvert.Convert
 {
-    public class KeyConverterResult
+    public class ConverterResult
     {
-        public KeyConverterResult(bool success, int totalFilesCount, int convertedFilesCount, string error = null)
+        public ConverterResult(bool success, int totalFilesCount, int convertedFilesCount, string error = null)
         {
             TotalFilesCount = totalFilesCount;
             ConvertedFilesCount = convertedFilesCount;
@@ -12,7 +12,7 @@ namespace KeyConvert.Convert
             Errors = string.IsNullOrWhiteSpace(error) ? new List<string>() : new List<string> { error };
         }
 
-        public KeyConverterResult(bool success, int totalFilesCount, int convertedFilesCount, List<string> errors)
+        public ConverterResult(bool success, int totalFilesCount, int convertedFilesCount, List<string> errors)
         {
             TotalFilesCount = totalFilesCount;
             ConvertedFilesCount = convertedFilesCount;
