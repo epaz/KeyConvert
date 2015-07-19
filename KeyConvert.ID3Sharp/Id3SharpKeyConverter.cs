@@ -49,7 +49,7 @@ namespace KeyConvert
         /// <param name="musicDirectory">Path of folder containing files whose keys will be converted</param>
         /// <param name="outputToConsole">True if status should be output to console</param>
         /// <returns>KeyConverterResult which contains the number of files successfully converted and the total number of files processed.</returns>
-        public static KeyConverterResult ConvertFiles(string musicDirectory, bool outputToConsole, Logger log)
+        public static KeyConverterResult ConvertFiles(string musicDirectory, bool outputToConsole, ILogger log)
         {
             // first check if directory exists
             if (!Directory.Exists(musicDirectory))
@@ -143,7 +143,7 @@ namespace KeyConvert
             Console.Write("| 0%");
         }
 
-        private static bool ConvertKeyOnFile(string filePath, Logger log)
+        private static bool ConvertKeyOnFile(string filePath, ILogger log)
         {
             string filename = Path.GetFileName(filePath);
             log.Info(string.Format("Reading file {0}", filename));

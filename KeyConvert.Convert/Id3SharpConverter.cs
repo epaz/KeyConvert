@@ -8,7 +8,7 @@ namespace KeyConvert.Convert
 {
     public class Id3SharpKeyConverter : IConverter
     {
-        const int _progressBarLength = 70; // default console window width is 80 characters
+        private const int ProgressBarLength = 70; // default console window width is 80 characters
         private IDictionary<string, string> _keyDictionary;
 
         /// <summary>
@@ -19,23 +19,17 @@ namespace KeyConvert.Convert
         /// <param name="keyDictionary">Dictionary containing mapping of old to new key values</param>
         /// <param name="log">Logger to use to log messages.</param>
         /// <returns>KeyConverterResult which contains the number of files successfully converted and the total number of files processed.</returns>
-        public ConverterResult ConvertFiles(string directoryPath, bool outputToConsole, IDictionary<String, String> keyDictionary, Logger log)
+        public ConverterResult ConvertFiles(string directoryPath, bool outputToConsole, IDictionary<String, String> keyDictionary, ILogger log)
         {
             _keyDictionary = keyDictionary;
-
-            // first check if directory exists
-            if (!Directory.Exists(directoryPath))
-            {
-                return new ConverterResult(false, 0, 0, "Music directory given does not exist.");
-            }
 
             // Get all mp3 files
             var files = new List<string>(Directory.GetFiles(directoryPath, "*.mp3",
                     SearchOption.TopDirectoryOnly));
 
             // TODO fix ID3 tags for AIFF files
-//            files.AddRange(Directory.GetFiles(musicFilesDirectoryPath, "*.aiff",
-//                SearchOption.TopDirectoryOnly));
+            //files.AddRange(Directory.GetFiles(musicFilesDirectoryPath, "*.aiff",
+            //    SearchOption.TopDirectoryOnly));
 
             // check if any files were found
             if (files.Count == 0)
@@ -51,10 +45,10 @@ namespace KeyConvert.Convert
             if (outputToConsole) InitConsoleProgress();
 
             // iterate through all files found
-            int successfullFilesCount = 0;
-            for (int index = 0; index < files.Count; index++)
+            var successfullFilesCount = 0;
+            for (var index = 0; index < files.Count; index++)
             {
-                string filePath = files[index];
+                var filePath = files[index];
 
                 // update progress bar
                 if(outputToConsole) UpdateProgress(index + 1, files.Count);
@@ -90,10 +84,10 @@ namespace KeyConvert.Convert
         {
             // update progress bar
             double progressPercentage = filesProcessed / (double)totalFiles;
-            var progressBarToFill = (int)(progressPercentage * _progressBarLength);
+            var progressBarToFill = (int)(progressPercentage * ProgressBarLength);
 
             Console.Write("\r|");
-            for (int i = 0; i < _progressBarLength; i++)
+            for (int i = 0; i < ProgressBarLength; i++)
             {
                 Console.Write(i < progressBarToFill ? "-" : " ");
             }
@@ -108,16 +102,16 @@ namespace KeyConvert.Convert
             Console.Write("|");
 
             
-            for (int i = 0; i < _progressBarLength; i++)
+            for (int i = 0; i < ProgressBarLength; i++)
             {
                 Console.Write(" ");
             }
             Console.Write("| 0%");
         }
 
-        private bool ConvertKeyOnFile(string filePath, Logger log)
+        private bool ConvertKeyOnFile(string filePath, ILogger log)
         {
-            string filename = Path.GetFileName(filePath);
+            var filename = Path.GetFileName(filePath);
             log.Info(string.Format("Reading file {0}", filename));
             
 
@@ -128,7 +122,7 @@ namespace KeyConvert.Convert
                 return false;
             }
 
-            ID3v2Tag tag = ID3v2Tag.ReadTag(filePath);
+            var tag = ID3v2Tag.ReadTag(filePath);
 
             // check if file has a Key
             if (!tag.HasKey || string.IsNullOrEmpty(tag.Key) ||
@@ -166,6 +160,4 @@ namespace KeyConvert.Convert
             return true;
         }
     }
-
-    
 }

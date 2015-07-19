@@ -1,4 +1,0 @@
-11:41:42.909 INFO: Found 1 files to convert.
-11:41:42.923 INFO: Reading file C:\Users\UEDP\Music\test\5346182_Drift_Steve Bugs Raw And Reduced Instrumental.mp3
-11:41:42.961 INFO: Writing tag to C:\Users\UEDP\Music\test\5346182_Drift_Steve Bugs Raw And Reduced Instrumental.mp3
-11:41:43.034 INFO: Successfully converted 1 of 1 files.

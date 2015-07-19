@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeyConvert.FrontendConsole", "KeyConvert.FrontendConsole\KeyConvert.FrontendConsole.csproj", "{DF10640F-6641-49D2-A799-9D3EDAE2265B}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeyConvert.FrontendWpf", "KeyConvert.FrontendWpf\KeyConvert.FrontendWpf.csproj", "{1F5C4283-E540-43FF-82DE-C99BC13323CE}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeyConvert.Utils", "KeyConvert.Utils\KeyConvert.Utils.csproj", "{D3696841-D048-4270-B178-4F38ECDB86DE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeyConvert.ID3Sharp", "KeyConvert.ID3Sharp\KeyConvert.ID3Sharp.csproj", "{845B47A5-0529-47BD-AFEC-533A2DE1B6FA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeyConvert.Convert", "KeyConvert.Convert\KeyConvert.Convert.csproj", "{682DF4BA-1FE0-4FC2-8DA0-BB007405A6DB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Frontends", "Frontends", "{5820EB66-4983-48FE-A0BC-7C0D431C38CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeyConvert.Frontends.Console", "KeyConvert.Frontends\KeyConvert.Frontends.Console\KeyConvert.Frontends.Console.csproj", "{DF10640F-6641-49D2-A799-9D3EDAE2265B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeyConvert.Frontends.Wpf", "KeyConvert.Frontends\KeyConvert.Frontends.Wpf\KeyConvert.Frontends.Wpf.csproj", "{1F5C4283-E540-43FF-82DE-C99BC13323CE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,14 +21,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{DF10640F-6641-49D2-A799-9D3EDAE2265B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DF10640F-6641-49D2-A799-9D3EDAE2265B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DF10640F-6641-49D2-A799-9D3EDAE2265B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DF10640F-6641-49D2-A799-9D3EDAE2265B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1F5C4283-E540-43FF-82DE-C99BC13323CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1F5C4283-E540-43FF-82DE-C99BC13323CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1F5C4283-E540-43FF-82DE-C99BC13323CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1F5C4283-E540-43FF-82DE-C99BC13323CE}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D3696841-D048-4270-B178-4F38ECDB86DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D3696841-D048-4270-B178-4F38ECDB86DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D3696841-D048-4270-B178-4F38ECDB86DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -39,8 +33,20 @@ Global
 		{682DF4BA-1FE0-4FC2-8DA0-BB007405A6DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{682DF4BA-1FE0-4FC2-8DA0-BB007405A6DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{682DF4BA-1FE0-4FC2-8DA0-BB007405A6DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF10640F-6641-49D2-A799-9D3EDAE2265B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF10640F-6641-49D2-A799-9D3EDAE2265B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF10640F-6641-49D2-A799-9D3EDAE2265B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF10640F-6641-49D2-A799-9D3EDAE2265B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F5C4283-E540-43FF-82DE-C99BC13323CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F5C4283-E540-43FF-82DE-C99BC13323CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F5C4283-E540-43FF-82DE-C99BC13323CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F5C4283-E540-43FF-82DE-C99BC13323CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DF10640F-6641-49D2-A799-9D3EDAE2265B} = {5820EB66-4983-48FE-A0BC-7C0D431C38CF}
+		{1F5C4283-E540-43FF-82DE-C99BC13323CE} = {5820EB66-4983-48FE-A0BC-7C0D431C38CF}
 	EndGlobalSection
 EndGlobal

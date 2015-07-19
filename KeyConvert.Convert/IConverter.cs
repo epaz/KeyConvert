@@ -17,6 +17,6 @@ namespace KeyConvert.Convert
         /// <param name="keyDictionary">Dictionary containing mapping of old to new key values</param>
         /// <param name="log">Logger to use to log messages.</param>
         /// <returns>KeyConverterResult which contains the number of files successfully converted and the total number of files processed.</returns>
-        ConverterResult ConvertFiles(string directoryPath, bool outputToConsole, IDictionary<String, String> keyDictionary, Logger log);
+        ConverterResult ConvertFiles(string directoryPath, bool outputToConsole, IDictionary<String, String> keyDictionary, ILogger log);
     }
 }

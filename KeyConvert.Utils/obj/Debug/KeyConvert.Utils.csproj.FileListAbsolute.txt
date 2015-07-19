@@ -16,3 +16,4 @@ C:\Source\KeyConvert\KeyConvert.Utils\bin\Debug\KeyConvert.Utils.dll
 C:\Source\KeyConvert\KeyConvert.Utils\bin\Debug\KeyConvert.Utils.pdb
 C:\Source\KeyConvert\KeyConvert.Utils\obj\Debug\KeyConvert.Utils.dll
 C:\Source\KeyConvert\KeyConvert.Utils\obj\Debug\KeyConvert.Utils.pdb
+C:\Source\KeyConvert\KeyConvert.Utils\obj\Debug\KeyConvert.Utils.csprojResolveAssemblyReference.cache
