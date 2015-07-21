@@ -20,6 +20,9 @@
         <Button Name="ConvertKeysButton" Foreground="{StaticResource TextBoxFocusedBrush}" 
                 Width="120" HorizontalAlignment="Left" HorizontalContentAlignment="Center" 
                 Margin="10,20,0,0" Click="ConvertKeysButton_Click">Convert Keys</Button>
+        <Grid HorizontalAlignment="Left" Background="Black" Margin="10" Width="575">
+            <ProgressBar Name="ConversionProgressBar" Visibility="Hidden" Minimum="0" Maximum="100" Value="0" />
+        </Grid>
         <TextBlock Name="ConversionResultTextBox" Foreground="{StaticResource TextBoxFocusedBrush}" 
                    Margin="10,10,10,10" FontSize="12"></TextBlock>
         <Button Name="ShowLogButton" Click="ShowLogButton_OnClick" HorizontalAlignment="Center" Foreground="{StaticResource TextBoxFocusedBrush}">show log</Button>

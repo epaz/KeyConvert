@@ -39,6 +39,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ConsoleProgressBar.cs" />
     <Compile Include="FileLogger.cs" />
     <Compile Include="ILogger.cs" />
     <Compile Include="LogLevel.cs" />

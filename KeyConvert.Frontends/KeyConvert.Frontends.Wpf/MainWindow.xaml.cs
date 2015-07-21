@@ -105,7 +105,9 @@ namespace FrontendWpf
                 }
                 else
                 {
-                    var converter = new Id3SharpKeyConverter();
+                    //var converter = new Id3SharpKeyConverter();
+                    
+                    ConversionProgressBar.Visibility = Visibility.Visible;
                     var converterResult = converter.ConvertFiles(MusicDirectoryTextBox.Text, false, KeyDictionaries.CamelotDictionary, _logger);
 
                     if (converterResult.Success)
