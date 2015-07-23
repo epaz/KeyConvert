@@ -403,7 +403,7 @@ namespace TagLib.Matroska
         ///    script of the media represented by the current instance
         ///    or <see langword="null" /> if no value is present.
         /// </value>
-        public override string Lyrics
+        public override string Key
         {
             get { return null; }
             set { }

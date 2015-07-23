@@ -1613,19 +1613,19 @@ namespace TagLib.Id3v2 {
 		///    Unsynchronized Lyrics Frame with an empty description and
 		///    the language specified by <see cref="Language" />.
 		/// </remarks>
-		public override string Lyrics {
+		public override string Key {
 			get {
-				UnsynchronisedLyricsFrame f =
-					UnsynchronisedLyricsFrame.GetPreferred (
+                InitialKeyFrame f =
+                    InitialKeyFrame.GetPreferred(
 						this, string.Empty, Language);
 				
 				return f != null ? f.ToString () : null;
 			}
 			set {
-				UnsynchronisedLyricsFrame frame;
+                InitialKeyFrame frame;
 				
 				if (string.IsNullOrEmpty (value)) {
-					while ((frame = UnsynchronisedLyricsFrame
+                    while ((frame = InitialKeyFrame
 						.GetPreferred (this,
 							string.Empty,
 							Language)) != null)
@@ -1633,8 +1633,8 @@ namespace TagLib.Id3v2 {
 					
 					return;
 				}
-				
-				frame = UnsynchronisedLyricsFrame.Get (this,
+
+                frame = InitialKeyFrame.Get(this,
 						String.Empty, Language, true);
 				
 				frame.Text = value;

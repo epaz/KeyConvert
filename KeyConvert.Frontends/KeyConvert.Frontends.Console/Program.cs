@@ -37,7 +37,7 @@ namespace KeyConvert.Frontends.Console
             }
             
             // setup background worker and DoWork
-            var converterBackgroundWorker = new BackgroundWorker();
+            var converterBackgroundWorker = new BackgroundWorker{WorkerReportsProgress = true};
             converterBackgroundWorker.DoWork += delegate(object sender, DoWorkEventArgs e)
             {
                 try

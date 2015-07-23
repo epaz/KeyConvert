@@ -31,9 +31,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="policy.2.0.taglib-sharp">
-      <HintPath>..\packages\taglib.2.1.0.0\lib\policy.2.0.taglib-sharp.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -41,9 +38,6 @@
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
-    <Reference Include="taglib-sharp">
-      <HintPath>..\packages\taglib.2.1.0.0\lib\taglib-sharp.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="IConverter.cs" />
@@ -58,13 +52,14 @@
       <Project>{845b47a5-0529-47bd-afec-533a2de1b6fa}</Project>
       <Name>KeyConvert.ID3Sharp</Name>
     </ProjectReference>
+    <ProjectReference Include="..\KeyConvert.TagLibSharp\KeyConvert.TagLibSharp.csproj">
+      <Project>{f1ebe6d4-4ac5-4d82-919e-3405da62d2b8}</Project>
+      <Name>KeyConvert.TagLibSharp</Name>
+    </ProjectReference>
     <ProjectReference Include="..\KeyConvert.Utils\KeyConvert.Utils.csproj">
       <Project>{d3696841-d048-4270-b178-4f38ecdb86de}</Project>
       <Name>KeyConvert.Utils</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

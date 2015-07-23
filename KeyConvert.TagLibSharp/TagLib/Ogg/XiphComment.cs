@@ -860,9 +860,17 @@ namespace TagLib.Ogg
 		/// <remarks>
 		///    This property is implemented using the "LYRICS" field.
 		/// </remarks>
-		public override string Lyrics {
-			get {return GetFirstField ("LYRICS");}
-			set {SetField ("LYRICS", value);}
+		public override string Key {
+		    get
+		    {
+                //return GetFirstField ("LYRICS");
+                throw new NotImplementedException();
+		    }
+		    set
+		    {
+                //SetField ("LYRICS", value);
+                throw new NotImplementedException();
+		    }
 		}
 		
 		/// <summary>

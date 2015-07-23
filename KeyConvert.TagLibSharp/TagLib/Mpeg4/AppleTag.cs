@@ -973,14 +973,17 @@ namespace TagLib.Mpeg4 {
 		/// <remarks>
 		///    This property is implemented using the "@lyr" data box.
 		/// </remarks>
-		public override string Lyrics {
-			get {
-				foreach (AppleDataBox box in DataBoxes (BoxType.Lyr))
-					return box.Text;
-				return null;
+		public override string Key {
+			get
+			{
+			    throw new NotImplementedException();
+			    //foreach (AppleDataBox box in DataBoxes (BoxType.Lyr))
+			    //    return box.Text;
+			    //return null;
 			}
 			set {
-				SetText (BoxType.Lyr, value);
+                //SetText (BoxType.Lyr, value);
+                throw new NotImplementedException();
 			}
 		}
 		

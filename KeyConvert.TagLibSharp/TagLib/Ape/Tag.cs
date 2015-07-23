@@ -1153,9 +1153,9 @@ namespace TagLib.Ape {
 		/// <remarks>
 		///    This property is implemented using the "Lyrics" item.
 		/// </remarks>
-		public override string Lyrics {
-			get {return GetItemAsString ("Lyrics");}
-			set {SetValue ("Lyrics", value);}
+		public override string Key {
+			get {return GetItemAsString ("Key");}
+			set {SetValue ("Key", value);}
 		}
 		
 		/// <summary>

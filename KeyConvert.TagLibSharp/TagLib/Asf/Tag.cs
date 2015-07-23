@@ -1007,21 +1007,20 @@ namespace TagLib.Asf {
 		}
 		
 		/// <summary>
-		///    Gets and sets the lyrics or script of the media
+		///    Gets and sets the musical key of the media
 		///    represented by the current instance.
 		/// </summary>
 		/// <value>
-		///    A <see cref="string" /> object containing the lyrics or
-		///    script of the media represented by the current instance
+		///    A <see cref="string" /> object containing the initial key
+		///  of the media represented by the current instance
 		///    or <see langword="null" /> if no value is present.
 		/// </value>
 		/// <remarks>
-		///    This property is implemented using the "WM/Lyrics"
-		///    Content Descriptor.
+		///   
 		/// </remarks>
-		public override string Lyrics {
-			get {return GetDescriptorString ("WM/Lyrics");}
-			set {SetDescriptorString (value, "WM/Lyrics");}
+		public override string Key {
+			get {return GetDescriptorString ("WM/InitialKey");}
+            set { SetDescriptorString(value, "WM/InitialKey"); }
 		}
 		
 		/// <summary>

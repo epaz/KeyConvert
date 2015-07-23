@@ -21,6 +21,7 @@
 // USA
 //
 
+using System;
 using System.Collections.Generic;
 
 namespace TagLib.Ogg
@@ -714,7 +715,7 @@ namespace TagLib.Ogg
 		}
 		
 		/// <summary>
-		///    Gets and sets the lyrics or script of the media
+		///    Gets and sets the musical key of the media
 		///    represented by the current instance.
 		/// </summary>
 		/// <value>
@@ -729,22 +730,28 @@ namespace TagLib.Ogg
 		///    <para>When setting the value, it is stored in the first
 		///    comment.</para>
 		/// </remarks>
-		/// <seealso cref="Tag.Lyrics" />
-		public override string Lyrics {
+		/// <seealso cref="Tag.Key" />
+		public override string Key {
 			get {
-				foreach (XiphComment tag in tags) {
-					if (tag == null)
-						continue;
+                //foreach (XiphComment tag in tags) {
+                //    if (tag == null)
+                //        continue;
 					
-					string value = tag.Lyrics;
+                //    string value = tag.Lyrics;
 					
-					if (value != null && value.Length > 0)
-						return value;
-				}
+                //    if (value != null && value.Length > 0)
+                //        return value;
+                //}
 				
-				return null;
+                //return null;
+
+                throw new NotImplementedException();
 			}
-			set { if (tags.Count > 0) tags[0].Lyrics = value; }
+		    set
+		    {
+                //if (tags.Count > 0) tags[0].Lyrics = value;
+                throw new NotImplementedException();
+		    }
 		}
 		
 		/// <summary>

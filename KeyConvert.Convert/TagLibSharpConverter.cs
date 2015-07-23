@@ -9,40 +9,37 @@ namespace KeyConvert.Convert
 {
     public class TagLibSharpConverter : IConverter
     {
-        private readonly string[] _supportedExtensions = {"mp3", "aiff"};
-        private ILogger _log;
+        public static readonly string[] SupportedExtensions = {".mp3", ".aiff"};
+        private readonly ILogger _log;
         
         public TagLibSharpConverter(ILogger log)
         {
             _log = log;
         }
 
-        public ConverterResult ConvertFiles(string directoryPath, IDictionary<string, string> keyDictionary, BackgroundWorker backgroundWorker)
+        public ConverterResult ConvertFile(FileInfo fileInfo, IDictionary<string, string> keyDictionary)
         {
-            var dirInfo = new DirectoryInfo(directoryPath);
-            var files = dirInfo.EnumerateFiles().Where(f => _supportedExtensions.Contains(f.Extension)).ToList();
-
-            // check if any files were found
-            if (files.Count == 0)
+            try
             {
-                var noFilesWarning = string.Format("No supported files found in directory {0}", directoryPath);
-                _log.Warn(noFilesWarning);
-                return new ConverterResult(false, 0, 0, noFilesWarning);
+                var file = TagLib.File.Create(fileInfo.FullName);
+
+                if (string.IsNullOrWhiteSpace(file.Tag.Key) || !keyDictionary.ContainsKey(file.Tag.Key))
+                {
+                    _log.Info(string.Format("No supported key found on {0}. Skipping file.", fileInfo.Name));
+                    return new ConverterResult(false);
+                }
+
+                file.Tag.Key = keyDictionary[file.Tag.Key];
+                file.Save();
+
+                return new ConverterResult(true);
             }
-
-            _log.Info(string.Format("Found {0} files to convert.", files.Count));
-
-
-            // iterate through all files found
-            for (var i = 0; i < files.Count; i++)
+            catch (Exception e)
             {
-                var tagFile = TagLib.File.Create(files[i].FullName);
-
-                tagFile.Tag.
+                var error = string.Format("Error converting key on {0}. Exception message: {1}", fileInfo.Name, e.Message);
+                _log.Error(error);
+                return new ConverterResult(false, 0, 0, error);
             }
-
-
-            return null; //todo
         }
     }
 }
