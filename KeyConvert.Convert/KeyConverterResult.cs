@@ -12,6 +12,16 @@ namespace KeyConvert.Convert
             Errors = new List<string>();
             Infos = new List<string>();
         }
+        
+        public ConverterResult(bool success, string error = null, string info = null)
+        {
+            Success = success;
+            TotalFilesCount = 0;
+            ConvertedFilesCount = 0;
+            Errors = string.IsNullOrWhiteSpace(error) ? new List<string>() : new List<string> { error };
+            Infos = string.IsNullOrWhiteSpace(info) ? new List<string>() : new List<string> { info };
+        }
+
         public ConverterResult(bool success, int totalFilesCount, int convertedFilesCount, string error = null, string info = null)
         {
             TotalFilesCount = totalFilesCount;
